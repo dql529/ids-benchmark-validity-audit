@@ -60,11 +60,9 @@ referenced script with the recorded arguments.
 
 ## License
 
-TBD by the authors (suggested: MIT for code, CC-BY-4.0 for tables). Until a LICENSE
-file is added, all rights are reserved by the authors; the deposit is public for
-inspection and reproducibility.
+MIT (see LICENSE). Applies to the code, result tables, and registry in this deposit.
 
 ## Release
 
-v1.0.0 (2026-10-12) — initial release accompanying the manuscript. A archival DOI
-(Zenodo) will be attached to this release.
+v1.0.1 (2026-10-12) — initial release + MIT license, accompanying the manuscript.
+An archival DOI (Zenodo) will be attached to this release.
