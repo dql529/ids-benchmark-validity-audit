@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this toolchain or result tables, please cite the accompanying paper and this repository."
+authors:
+  - family-names: Di
+    given-names: Qianli
+    orcid: "https://orcid.org/0009-0009-6869-5076"
+  - family-names: Du
+    given-names: Keju
+  - family-names: Chen
+    given-names: Gang
+  - family-names: Deng
+    given-names: Hai
+title: "Physical-plausibility audit toolchain for CAN security corpora"
+version: 1.0.0
+date-released: "2026-10-12"
+repository-code: "https://github.com/dql529/ids-benchmark-validity-audit"
