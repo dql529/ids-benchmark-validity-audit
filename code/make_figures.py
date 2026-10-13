@@ -2,7 +2,8 @@
 """Phase 5 分析图生成（pgfplots/TikZ，IEEE 规格）。
 
 三张图各回答一个问题：
-  F1  CTAT 在两条扰动臂下的退化 —— "对测量噪声稳健、对良性钟抖动脆弱"
+  F1  CTAT 在两条扰动臂下的退化 —— "对测量噪声稳健、对 jitter + cumulative drift 脆弱"
+      (Arm B 含累积漂移, Arm C 为非累积抖动; B/C 对比不隔离漂移)
   F2  CTAT 16 个强判别文件在 Arm B 下的逐文件轨迹 —— 崩溃是断崖且异质
   F3  ROAD oracle 在 Arm B 下向"全判攻击"退化解收敛 —— 弱信号归零
 """
@@ -87,10 +88,10 @@ def fig1() -> Path:
 \addlegendentry{trivial (zero-learning)}
 
 \nextgroupplot[
-  xlabel={Arm B: benign gap jitter $\sigma$}, ylabel={},
+  xlabel={Arm B: jitter + cumulative drift $\sigma$}, ylabel={},
   xtick={0.05,0.2,0.5,1.0}, xticklabels={$0.05$,$0.2$,$0.5$,$1.0$},
   xmin=-0.02, xmax=1.08,
-  title={\small (b) benign-clock jitter}, title style={yshift=-1pt},
+  title={\small (b) Arm B: jitter + cumulative drift}, title style={yshift=-1pt},
   legend style={at={(0.5,-0.30)}, anchor=north, legend columns=1, cells={anchor=west}},
 ]
 \addplot[draw=none, fill=plotblue, fill opacity=0.15, forget plot] coordinates {""" + band(xb, rb["oracle_f1"][1], rb["oracle_f1"][2]) + r"""} \closedcycle;
@@ -134,7 +135,7 @@ def fig2() -> Path:
 \begin{tikzpicture}
 \begin{axis}[
   width=15cm, height=6.2cm,     % IEEE double column
-  xlabel={Arm B: benign gap jitter $\sigma$}, ylabel={trivial F1},
+  xlabel={Arm B: jitter + cumulative drift $\sigma$}, ylabel={trivial F1},
   xmin=-0.02, xmax=1.06, ymin=0, ymax=1.02,
   xtick={0,0.05,0.2,0.5,1.0}, xticklabels={$0$,,$0.2$,$0.5$,$1.0$},
   grid=major, grid style={plotgray!25},
@@ -177,7 +178,7 @@ def fig3() -> Path:
 \begin{tikzpicture}
 \begin{axis}[
   width=8.6cm, height=5.4cm,    % IEEE single column
-  xlabel={Arm B: benign gap jitter $\sigma$}, ylabel={ROAD masquerade oracle F1},
+  xlabel={Arm B: jitter + cumulative drift $\sigma$}, ylabel={ROAD masquerade oracle F1},
   xmin=-0.02, xmax=1.06, ymin=0, ymax=0.26,
   xtick={0,0.05,0.2,0.5,1.0}, xticklabels={$0$,,$0.2$,$0.5$,$1.0$},
   grid=major, grid style={plotgray!25},

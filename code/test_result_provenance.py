@@ -5,7 +5,7 @@ from pathlib import Path
 import tempfile
 import unittest
 
-from phase5.result_provenance import verify_result_source
+from result_provenance import verify_result_source
 
 
 class ResultProvenanceTest(unittest.TestCase):

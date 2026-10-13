@@ -27,9 +27,10 @@ import pandas as pd
 from sklearn.metrics import f1_score, recall_score, precision_score
 
 HERE = Path(__file__).resolve().parent
-# Resolve the shared input contract also when this file is run directly.
-sys.path.insert(0, str(HERE.parent))
-from phase5.run_contract import syncan_has_header
+# Resolve the shared input contract also when this file is run directly
+# (flat code/ layout: run_contract.py lives in this same directory).
+sys.path.insert(0, str(HERE))
+from run_contract import syncan_has_header
 
 CTAT_DIR = Path(os.path.expanduser("~/Datasets/can_ids/can-train-and-test/set_01"))
 ROAD_SIG = Path(os.path.expanduser("~/Datasets/can_ids/ROAD/road/signal_extractions"))

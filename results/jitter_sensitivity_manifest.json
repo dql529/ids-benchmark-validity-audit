@@ -1,0 +1,7 @@
+{
+  "contract_id": "73b95995fc2d55c2209318a4a5d7282e2211c19c5cafd45b6567a60c450c80a4",
+  "csv": "jitter_sensitivity.csv",
+  "csv_sha256": "c9cf9cd4c41de7aebea23a947c17ae853ba9159c7371d070f0eac40c2b53fcfb",
+  "pilot": false,
+  "workers": 2
+}

@@ -1,0 +1,1239 @@
+{
+  "caches": [
+    {
+      "bytes": 33758148,
+      "name": "ctat__TRAINSET|ALL.npz",
+      "sha256": "6c7585adcf0b0de64ddf767d3512c75e980046ccc7daddc3f30c4f9741eea4c9"
+    },
+    {
+      "bytes": 1193350,
+      "name": "ctat__TRAINSET|DoS.npz",
+      "sha256": "cf3f6c930af4e18f2deac52c15f1b34513fd2adfbce3734dab29bce24585bd12"
+    },
+    {
+      "bytes": 1465243,
+      "name": "ctat__TRAINSET|accessory.npz",
+      "sha256": "2e6e8cbb29f08abb700fe295894459e733cd8a20d88b31cce6e745c4c7dfadc6"
+    },
+    {
+      "bytes": 10962131,
+      "name": "ctat__TRAINSET|attack-free.npz",
+      "sha256": "6da919db36084a5741820d1a827add586df9301354274d7314763a49070649be"
+    },
+    {
+      "bytes": 5431040,
+      "name": "ctat__TRAINSET|force-neutral.npz",
+      "sha256": "f8749b049587dad9176de32a75757e6674d10d0d4abd264d82d8b6054b77a135"
+    },
+    {
+      "bytes": 5253024,
+      "name": "ctat__TRAINSET|rpm.npz",
+      "sha256": "8096d2e5471896134ef444a8bbee6d2c5b3b99751e16e8710c306b7d9b08ebc9"
+    },
+    {
+      "bytes": 10405707,
+      "name": "ctat__TRAINSET|standstill.npz",
+      "sha256": "fbcecc60ca6deb426804031ec8304bc36577ca732fdf317ac84fe865fb7e60f6"
+    },
+    {
+      "bytes": 441042,
+      "name": "ctat__test_01_known_vehicle_known_attack|DoS-3.csv.npz",
+      "sha256": "fb72008489ac5d6f6c37f40855fc0732cf5c1385ed4a1de649a68bd561618d1f"
+    },
+    {
+      "bytes": 2550596,
+      "name": "ctat__test_01_known_vehicle_known_attack|DoS-4.csv.npz",
+      "sha256": "212120884dd621428b701edf893dc634cc5233f87ff170f7c5f5a96bc15b6ec5"
+    },
+    {
+      "bytes": 2458560,
+      "name": "ctat__test_01_known_vehicle_known_attack|force-neutral-3.csv.npz",
+      "sha256": "6a780b9ff16654273e0383844bd4b4d5d8b4755f29d594abd0a6043f56a48236"
+    },
+    {
+      "bytes": 2283319,
+      "name": "ctat__test_01_known_vehicle_known_attack|force-neutral-4.csv.npz",
+      "sha256": "7b6f05568ec5dc19900d86afb162c7330fdf3f45011e923b7e8bf2177f1426b7"
+    },
+    {
+      "bytes": 2208326,
+      "name": "ctat__test_01_known_vehicle_known_attack|rpm-3.csv.npz",
+      "sha256": "0a8485f1d12cf0bace8ec3c25424794d338fea2fe0577a7bdf851b5baebeb0b7"
+    },
+    {
+      "bytes": 2243096,
+      "name": "ctat__test_01_known_vehicle_known_attack|rpm-4.csv.npz",
+      "sha256": "d257e632a8469e82d0e64158f7d67b190cd6b9f6631e17c8f74eabadf529de11"
+    },
+    {
+      "bytes": 1717974,
+      "name": "ctat__test_01_known_vehicle_known_attack|standstill-3.csv.npz",
+      "sha256": "15e70378da99865c00cade86fcc03c61d64a8872c9522e489571a0e39d05ecc2"
+    },
+    {
+      "bytes": 1689500,
+      "name": "ctat__test_01_known_vehicle_known_attack|standstill-4.csv.npz",
+      "sha256": "6f3ca2a86477afe9598de277d0f75a82c823bc9831de3be6aa7237547c329600"
+    },
+    {
+      "bytes": 2948787,
+      "name": "ctat__test_02_unknown_vehicle_known_attack|DoS-3.csv.npz",
+      "sha256": "b7ff1e6fab3807be275eac0f27242ebbfb9205db2f40ef45992f9534f673ec8d"
+    },
+    {
+      "bytes": 1673611,
+      "name": "ctat__test_02_unknown_vehicle_known_attack|DoS-4.csv.npz",
+      "sha256": "e2daeb82c2b5add9753c4a171cbadb64cdb31a0075ff431e2f97e95d582db60e"
+    },
+    {
+      "bytes": 1085866,
+      "name": "ctat__test_02_unknown_vehicle_known_attack|force-neutral-3.csv.npz",
+      "sha256": "f365599a59a9290f780c564558707c419759a3d93b1759aecc285d73b9e7ae4a"
+    },
+    {
+      "bytes": 3966290,
+      "name": "ctat__test_02_unknown_vehicle_known_attack|force-neutral-4.csv.npz",
+      "sha256": "c7e08c1eb666d91430d6a89c1eed11be180ca76b6fc353d195b1d6df276d01d1"
+    },
+    {
+      "bytes": 1542642,
+      "name": "ctat__test_02_unknown_vehicle_known_attack|rpm-3.csv.npz",
+      "sha256": "0756a5885d31f38e952c4641cc723ab999dc4cf5ae4aeb702fc52cd3264fa83f"
+    },
+    {
+      "bytes": 1553611,
+      "name": "ctat__test_02_unknown_vehicle_known_attack|rpm-4.csv.npz",
+      "sha256": "4ca6a674fa1bfa9effb83f572fed03322ea84eabd19f5bdd177cb5d7fb38478e"
+    },
+    {
+      "bytes": 1544246,
+      "name": "ctat__test_02_unknown_vehicle_known_attack|standstill-3.csv.npz",
+      "sha256": "9d02174f670766af67274d39267bb049d839da15279fd4adab503d99ec06c3ff"
+    },
+    {
+      "bytes": 1555615,
+      "name": "ctat__test_02_unknown_vehicle_known_attack|standstill-4.csv.npz",
+      "sha256": "dc6cc821800ea767f118903a3fcfe93f739eb7a7b7aa261cadd5ac99944d1234"
+    },
+    {
+      "bytes": 2457848,
+      "name": "ctat__test_03_known_vehicle_unknown_attack|double-3.csv.npz",
+      "sha256": "ac751d6e89edc60d54fb85e35dc27cbc59c776380206f214d0247ed8fce9c808"
+    },
+    {
+      "bytes": 2299782,
+      "name": "ctat__test_03_known_vehicle_unknown_attack|double-4.csv.npz",
+      "sha256": "8e103923eb922410a315e6a459a1f40b55f62b4b829f0f80fd39aafb6780e7ea"
+    },
+    {
+      "bytes": 1600291,
+      "name": "ctat__test_03_known_vehicle_unknown_attack|fuzzing-3.csv.npz",
+      "sha256": "7080a1e4b1703e299baace1629bc0f111fdd3d26e365d1e12a150c6f33f53586"
+    },
+    {
+      "bytes": 1118891,
+      "name": "ctat__test_03_known_vehicle_unknown_attack|fuzzing-4.csv.npz",
+      "sha256": "02f20160e779713a047b713c3d01233fdec252fc15931be40e5aaf3dc103a58c"
+    },
+    {
+      "bytes": 2139802,
+      "name": "ctat__test_03_known_vehicle_unknown_attack|interval-3.csv.npz",
+      "sha256": "8a152c6d77f90ee469a932c6378033ae8c911f5c2d3ba4a5a5c584a8c5b4e7cd"
+    },
+    {
+      "bytes": 2423226,
+      "name": "ctat__test_03_known_vehicle_unknown_attack|interval-4.csv.npz",
+      "sha256": "f85401130e970e73d01b56382c63069baa12992e1baf6ec1e1cb1f030764abe8"
+    },
+    {
+      "bytes": 1728456,
+      "name": "ctat__test_03_known_vehicle_unknown_attack|speed-3.csv.npz",
+      "sha256": "21141552c18f1209994a194f582ce11bd0085dcc030610bf9005437f5daba9cd"
+    },
+    {
+      "bytes": 1698944,
+      "name": "ctat__test_03_known_vehicle_unknown_attack|speed-4.csv.npz",
+      "sha256": "976d04aa67e6bc0ba399cb16216a3ab2ac0fabeab690a59d2b99353bea23c35a"
+    },
+    {
+      "bytes": 2147311,
+      "name": "ctat__test_03_known_vehicle_unknown_attack|systematic-3.csv.npz",
+      "sha256": "96d50d99af4fbef7d73954e07c99297e302342d42027d8e091b10e0fb009a35e"
+    },
+    {
+      "bytes": 1555160,
+      "name": "ctat__test_03_known_vehicle_unknown_attack|systematic-4.csv.npz",
+      "sha256": "79d4595bf326cf0dad3cbcc0a63c287e4c18278d5f811fdf977475302e4423c9"
+    },
+    {
+      "bytes": 2202726,
+      "name": "ctat__test_03_known_vehicle_unknown_attack|triple-3.csv.npz",
+      "sha256": "d0e58f9cd7e2196d6764f71035c3f8a0f4c1309431ce7ab62a434535fa0f6aac"
+    },
+    {
+      "bytes": 2243982,
+      "name": "ctat__test_03_known_vehicle_unknown_attack|triple-4.csv.npz",
+      "sha256": "d3fc50eed8fdf0b0893f637307f74ece19d95169db14b5e48a20c02cfb1eaf54"
+    },
+    {
+      "bytes": 2830678,
+      "name": "ctat__test_04_unknown_vehicle_unknown_attack|double-3.csv.npz",
+      "sha256": "265fe62db2836175f1c39107cd002d9d6cfbdb1305a632463a8d4f9d73838969"
+    },
+    {
+      "bytes": 3313509,
+      "name": "ctat__test_04_unknown_vehicle_unknown_attack|double-4.csv.npz",
+      "sha256": "a6ca433187808017c3a17aaa62af4b0917e40590139e4a542c6e41110820837e"
+    },
+    {
+      "bytes": 1287953,
+      "name": "ctat__test_04_unknown_vehicle_unknown_attack|fuzzing-3.csv.npz",
+      "sha256": "9f8657370f339586a97bd6f164b667d85cb3447df4b33ba2cb8fb0321c0da6a5"
+    },
+    {
+      "bytes": 1584184,
+      "name": "ctat__test_04_unknown_vehicle_unknown_attack|fuzzing-4.csv.npz",
+      "sha256": "6a80a9e14ab8f3a16b0bc3bc9284338374ba2b88cd7fdf9759499b6542fdd5f8"
+    },
+    {
+      "bytes": 2283977,
+      "name": "ctat__test_04_unknown_vehicle_unknown_attack|interval-3.csv.npz",
+      "sha256": "0972e01830497ae1ef3434bd82b1886d1f7c28c7cc36040a108243033b6479ae"
+    },
+    {
+      "bytes": 2187311,
+      "name": "ctat__test_04_unknown_vehicle_unknown_attack|interval-4.csv.npz",
+      "sha256": "044dd68f3ea8c22ab206b54607a61c89b46ef030bdfda03cbea97689b65f493f"
+    },
+    {
+      "bytes": 6699368,
+      "name": "ctat__test_04_unknown_vehicle_unknown_attack|speed-3.csv.npz",
+      "sha256": "5a0ccfc21edf347d5facddc295c71afeac4a1ebe426f8553f9895f6e5601e9a6"
+    },
+    {
+      "bytes": 4842953,
+      "name": "ctat__test_04_unknown_vehicle_unknown_attack|speed-4.csv.npz",
+      "sha256": "88db015355978fe7477de2f97d71883a060d2518702cd2161cb12e856fb8cf4e"
+    },
+    {
+      "bytes": 1301190,
+      "name": "ctat__test_04_unknown_vehicle_unknown_attack|systematic-3.csv.npz",
+      "sha256": "06ed804a6c6fef9641fc5615a1d88c69e5e7d012d1a915a0121289b7863c77cf"
+    },
+    {
+      "bytes": 848848,
+      "name": "ctat__test_04_unknown_vehicle_unknown_attack|systematic-4.csv.npz",
+      "sha256": "40f5d115864449a147db0b6a3ce8708b95cdcbad2369c6acf55594bd29c91562"
+    },
+    {
+      "bytes": 5064084,
+      "name": "ctat__test_04_unknown_vehicle_unknown_attack|triple-3.csv.npz",
+      "sha256": "857da0a22a755b7a6a7151df883091f8d7685528eb5fa600e2d8d97a4e8918d9"
+    },
+    {
+      "bytes": 1518524,
+      "name": "ctat__test_04_unknown_vehicle_unknown_attack|triple-4.csv.npz",
+      "sha256": "6ba780cae23745816b7414333a576e5543b0894425b8780c41eb41e2801cca42"
+    },
+    {
+      "bytes": 62648708,
+      "name": "road__TRAINSET|ALL.npz",
+      "sha256": "0c1ff3d8d722ef5643515a43c536ae3fcab6c367aa25e741cb7923ed66b5f1c5"
+    },
+    {
+      "bytes": 221981,
+      "name": "road__correlated_signal_attack_1_masquerade.csv.npz",
+      "sha256": "0f2b725ee4dd8cd274efbc57d057d2b93b8d16398c72fa0c2ac272046ecbe74f"
+    },
+    {
+      "bytes": 193799,
+      "name": "road__correlated_signal_attack_2_masquerade.csv.npz",
+      "sha256": "4794c9556f67b79f8886e72342d321a6088feafe75e4c3e33255ff6849887fd2"
+    },
+    {
+      "bytes": 114835,
+      "name": "road__correlated_signal_attack_3_masquerade.csv.npz",
+      "sha256": "09dc0a3ccb81b13f42d05a3e4039216d1e6af6e04a6ed0fb5f9b8035bf1699e8"
+    },
+    {
+      "bytes": 165574,
+      "name": "road__max_engine_coolant_temp_attack_masquerade.csv.npz",
+      "sha256": "ee69f1f2f77db1a57164281cd7f6d341626b33eb6580b640cb4514f456a053f2"
+    },
+    {
+      "bytes": 516722,
+      "name": "road__max_speedometer_attack_1_masquerade.csv.npz",
+      "sha256": "3a19fdb90afbc49adb065e84daa39e68ded66270182dc6cbd23023c20723c7ae"
+    },
+    {
+      "bytes": 368504,
+      "name": "road__max_speedometer_attack_2_masquerade.csv.npz",
+      "sha256": "4e37212aa9e5d92ba3ce4576a7bf9f8ba86ff645cbfa505f8887d337d9cb7713"
+    },
+    {
+      "bytes": 519492,
+      "name": "road__max_speedometer_attack_3_masquerade.csv.npz",
+      "sha256": "c998651cace4ab5b4feaa6ea737e9b90f98405ec912f591cc940a2e854df6956"
+    },
+    {
+      "bytes": 183614,
+      "name": "road__reverse_light_off_attack_1_masquerade.csv.npz",
+      "sha256": "1e7d03021d8d2d5d473479979e0102a296ad34a116a87b7f8dc785311310d532"
+    },
+    {
+      "bytes": 257582,
+      "name": "road__reverse_light_off_attack_2_masquerade.csv.npz",
+      "sha256": "929219e0ec50ef45c695a160fb2161156655dfb53f0154ff21435c2b2d6ba404"
+    },
+    {
+      "bytes": 354425,
+      "name": "road__reverse_light_off_attack_3_masquerade.csv.npz",
+      "sha256": "602f097ee006fb71ccecdd757d6a1c9e3051ce7ddcfabbc2e746fb126b0f06ed"
+    },
+    {
+      "bytes": 334006,
+      "name": "road__reverse_light_on_attack_1_masquerade.csv.npz",
+      "sha256": "3fe1653090bb87428f7c1de8b40419b8e895c2a1257c7f9809608746959a2cc4"
+    },
+    {
+      "bytes": 435025,
+      "name": "road__reverse_light_on_attack_2_masquerade.csv.npz",
+      "sha256": "3d0bcd77d899ad949cadc0a32f257f8eb580d1d4e7fed6d102d54287802e03c5"
+    },
+    {
+      "bytes": 397044,
+      "name": "road__reverse_light_on_attack_3_masquerade.csv.npz",
+      "sha256": "8aa367003d936be156b1fe124e4613b3c19907b3d21f5d98ad4435174c76e709"
+    },
+    {
+      "bytes": 77729934,
+      "name": "syncan__TRAINSET|ALL.npz",
+      "sha256": "944f4f2b0c973bf772cb2a1b4c55e968676dea47aa96a4aad3eeaf502489533e"
+    },
+    {
+      "bytes": 5167889,
+      "name": "syncan__test_continuous.npz",
+      "sha256": "61283aadcc44eb8da2906b9cda96ecbede74908e785b792278b80adc3a55a2af"
+    },
+    {
+      "bytes": 7640258,
+      "name": "syncan__test_flooding.npz",
+      "sha256": "21fdb754f6e515376573e828e6a0d5906f8119f8638b31e05bb470f8b31af219"
+    },
+    {
+      "bytes": 5141105,
+      "name": "syncan__test_plateau.npz",
+      "sha256": "816573a37b9f21b5028ce0dc884e5ac92bbb09c4eaaa1df4fc1ebd1f47fa831e"
+    },
+    {
+      "bytes": 5149135,
+      "name": "syncan__test_playback.npz",
+      "sha256": "c19f4eb3766467311eb70e8234fa20930378da045f90929bca1919c1b200735e"
+    },
+    {
+      "bytes": 5053519,
+      "name": "syncan__test_suppress.npz",
+      "sha256": "7e406e1743e95a8a516ec67e5110960c0531a3249d3b053a5435bf9fcf8dc23d"
+    }
+  ],
+  "code": {
+    "jitter_sensitivity.py": "047835753958735e2dae734924d6f0f9168ea56c811e4486aa9f61d35dffeb69",
+    "run_contract.py": "75baf2d359c05d9ae4f830dc09a249ce1d3de4431ec433a735890fe336a2ab08"
+  },
+  "contract_id": "73b95995fc2d55c2209318a4a5d7282e2211c19c5cafd45b6567a60c450c80a4",
+  "inputs": [
+    {
+      "bytes": 3498722,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/train_01/DoS-1.csv",
+      "sha256": "70ba91332949ec1ce68faa5ff89e9647b9e271153108ccc5eff4c24d7e10117d",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 12122150,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/train_01/DoS-2.csv",
+      "sha256": "ed28da2b77dc3c556ebe54f73f6c4aec8dcf9a744b9b306ad858951f01f85809",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 8085578,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/train_01/accessory-1.csv",
+      "sha256": "01fd35561a0756782d05b8aa99af1eb555ad3dfa51137a90e05901adf826007e",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 8768770,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/train_01/accessory-2.csv",
+      "sha256": "6cab63f1d04a06cade61b21b356f26524095fc7bc10de39a86ba9fee2ca5b5cb",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 75976161,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/train_01/attack-free-1.csv",
+      "sha256": "ac377ea04cfcc0c742761ff9e6fad2ba80ab9bbeefffc0ff8fdabd0be9c2f05c",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 49385649,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/train_01/attack-free-2.csv",
+      "sha256": "a78ed1e6e3c2ddd6711584a7806acbdf146ae4c04cc15a2caf4fae83c755671a",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 27754807,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/train_01/force-neutral-1.csv",
+      "sha256": "90f42168f45241ea6979849b421405a28bab9556701a9ca1133bc6e6ea464c89",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 38541656,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/train_01/force-neutral-2.csv",
+      "sha256": "a84b2a1d2ca680a29cd8c212c6bd983f4a82d58d1cde2ff4c0cf1c182db37717",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 32695456,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/train_01/rpm-1.csv",
+      "sha256": "44e6b912666f4e089b885f910d2f9211c6faf99c74dc87d4f79cac33a86a3b31",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 31718456,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/train_01/rpm-2.csv",
+      "sha256": "6627e889f6bc0a7d60e20a632ab7f645a758d4a3af69e0525b540b71303c6a56",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 75978651,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/train_01/standstill-1.csv",
+      "sha256": "11a514b6d9a1007acef158dcd21fc48f168e2f1024221b3f28bcf13baca7867f",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 48937495,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/train_01/standstill-2.csv",
+      "sha256": "29629eba417975566943220ecc87fb562e05c730094d0f3dd1f38c2fa105b5a7",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 5992583,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_01_known_vehicle_known_attack/DoS-3.csv",
+      "sha256": "f86c0df69c26de9a955e13711057f40d18e374c980ab10827102b86961262183",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 35705429,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_01_known_vehicle_known_attack/DoS-4.csv",
+      "sha256": "c26eb8dea1e57b0a0d6640dadf583dcddfb47b11a99c753b3fdc8b997eb0db81",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 35169260,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_01_known_vehicle_known_attack/force-neutral-3.csv",
+      "sha256": "b237c080dbf74d1f74c9508109b73e5a56bd5b056134e55cc45860f369b2c001",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 32576569,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_01_known_vehicle_known_attack/force-neutral-4.csv",
+      "sha256": "5f6bacd0c1e901862102f750b66a918c0b6847ef9d7558fe374e8f6c49103329",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 31339311,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_01_known_vehicle_known_attack/rpm-3.csv",
+      "sha256": "21ca5c3341b51c027ce38e0ce9463664cf653be0fccd18ae28185703d74ce82b",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 31981845,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_01_known_vehicle_known_attack/rpm-4.csv",
+      "sha256": "aef3d15f39c6fb1dc2df87cc96205ce9c03c0c3b3cf246d56520f0f6e907462e",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 24292224,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_01_known_vehicle_known_attack/standstill-3.csv",
+      "sha256": "0d4e08589fc3b2e516a8a24e053dad1ec3b870c0248fe2a104a8cb29b405fe74",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 23977213,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_01_known_vehicle_known_attack/standstill-4.csv",
+      "sha256": "ed30a557065db8547deedd566b2c4889e6f0d5fe783b0244939d949d2b73caab",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 42431037,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_02_unknown_vehicle_known_attack/DoS-3.csv",
+      "sha256": "543c7f0f3218657a09fe7bc9fb7c95591725ec3832998323b68d2a9c8e754204",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 26343887,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_02_unknown_vehicle_known_attack/DoS-4.csv",
+      "sha256": "2f059858b0b25520befd23f00d5558ae2714eba72b540357465608ff6ebbde8c",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 17064422,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_02_unknown_vehicle_known_attack/force-neutral-3.csv",
+      "sha256": "be45ea3adc7dc010ff83218cf7ccd7f5a615999476f6b40e5946220dca198bc3",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 62637610,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_02_unknown_vehicle_known_attack/force-neutral-4.csv",
+      "sha256": "2b7b9c19741b51cfb413daeb864cfc50d17a45293066d967e6033ddd4799c94e",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 24085526,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_02_unknown_vehicle_known_attack/rpm-3.csv",
+      "sha256": "03113c53b5eb6a0876810f7b8937501f56e912d576a2d3259e90b4869c711f72",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 24583034,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_02_unknown_vehicle_known_attack/rpm-4.csv",
+      "sha256": "f3c5b8f07306598ef0e260fef9b64617fd2a3b02c2db69af0e1e43b67dee55fb",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 24165206,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_02_unknown_vehicle_known_attack/standstill-3.csv",
+      "sha256": "9956ebfa2702c31c8aebbb57e8b0f270be34535d667d3f2672b18c0197ac4bc9",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 24726257,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_02_unknown_vehicle_known_attack/standstill-4.csv",
+      "sha256": "5b5e8f61bc9af363b876253cb85584fc46f79676b68f662ddee214f706d24442",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 34817685,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_03_known_vehicle_unknown_attack/double-3.csv",
+      "sha256": "5424301d48e90a1625d756f7291f6320975d3d8723578b2eb278e58beb3ae970",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 32780010,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_03_known_vehicle_unknown_attack/double-4.csv",
+      "sha256": "387c28887c3ce8b96653f30903886cd4f197d494a3bf2834e26357fb651e5e64",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 22136964,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_03_known_vehicle_unknown_attack/fuzzing-3.csv",
+      "sha256": "526dbd06fa48816c11b40d1a568bac9aea8b7b582ea2e5405452e06fed1bd65b",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 15879440,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_03_known_vehicle_unknown_attack/fuzzing-4.csv",
+      "sha256": "8a6a60ba7d4dcae8c4ae057cbe946bf380e951b2ddbf8b6c6f1ca3c7b203dcbd",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 30698545,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_03_known_vehicle_unknown_attack/interval-3.csv",
+      "sha256": "0bded8086f4f35244f08da7593fcf7ab90c6e59262955f508924d5d3f197c0b0",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 34341759,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_03_known_vehicle_unknown_attack/interval-4.csv",
+      "sha256": "01137c00610f247fca7d0047e58b283d5a905cc44e2b399492a10a4a263248b8",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 24604895,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_03_known_vehicle_unknown_attack/speed-3.csv",
+      "sha256": "28109daa01df0396dd8fbcba208be3fe69294e3527e4028428468b693a83d4ae",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 24049791,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_03_known_vehicle_unknown_attack/speed-4.csv",
+      "sha256": "531376570b4842e77cfd4f5c033facf750e7a6172c3d088b756165b5408c13ed",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 30325595,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_03_known_vehicle_unknown_attack/systematic-3.csv",
+      "sha256": "f80791575a69da35407cc9a1941df725c8f634208b0d1e016444d45700466aa6",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 22146425,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_03_known_vehicle_unknown_attack/systematic-4.csv",
+      "sha256": "591bff23af57d632f7f1fb95ac18bdc75f9236d692d497c4187ca61ee9d2f987",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 31298504,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_03_known_vehicle_unknown_attack/triple-3.csv",
+      "sha256": "b579b502158707271fa33a4fd32adf47b1758454442b0361573dabc6e5cf9a26",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 32162261,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_03_known_vehicle_unknown_attack/triple-4.csv",
+      "sha256": "e4537cb5078f58019066334304cf1256f6f12ae48b1abb48aa32a0239c7b3855",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 41775703,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_04_unknown_vehicle_unknown_attack/double-3.csv",
+      "sha256": "3d24a7fc708ca920580c72ff667d37df9c5037caf331471d0562a34d131d04b5",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 49379769,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_04_unknown_vehicle_unknown_attack/double-4.csv",
+      "sha256": "9e6248652f95b208bdff2f42b38d86e016510120b2e1493d56ca126c81e7bbb0",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 18755856,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_04_unknown_vehicle_unknown_attack/fuzzing-3.csv",
+      "sha256": "5e3f3d75efff9a7fcb1acae56fa2dfca5b8049cf33b0c3978bfa30e9f868ec85",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 23502550,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_04_unknown_vehicle_unknown_attack/fuzzing-4.csv",
+      "sha256": "af823272547f3356ef5dbba838e8f472b6ac0dcc5a046a91094bdc2092c45b6a",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 33584019,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_04_unknown_vehicle_unknown_attack/interval-3.csv",
+      "sha256": "1d15c1d078fe7bc91438f4b1855e62c408a9325c605d6ff1b88f71f7415a67cb",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 32589943,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_04_unknown_vehicle_unknown_attack/interval-4.csv",
+      "sha256": "07d8e41c9554c95a421e3aad9d8b7b185edbfd568acb36505da0b5fb2b51f1e3",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 98986383,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_04_unknown_vehicle_unknown_attack/speed-3.csv",
+      "sha256": "0925bcd53d764a4aa57bccbaed5873c32a29b35a97ca3bc3418f53cb2afcbc87",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 71749378,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_04_unknown_vehicle_unknown_attack/speed-4.csv",
+      "sha256": "122cfd410b0d2b4b55059bb75c26368e8337df776599d9d2cc39f3b0632cb043",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 19340328,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_04_unknown_vehicle_unknown_attack/systematic-3.csv",
+      "sha256": "bb4af22be82a9cc583184f9192ac30126196218338711050272612c516acd7aa",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 12530600,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_04_unknown_vehicle_unknown_attack/systematic-4.csv",
+      "sha256": "0687f61bf1c5093f98ccfc52c6810dfa95d13c5d96e105bff5a5efbf91d61585",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 75208963,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_04_unknown_vehicle_unknown_attack/triple-3.csv",
+      "sha256": "690d047141c7918bd6ec623d788e424c04b3305482272e4eccacfb194a5ed9a4",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 22523639,
+      "kind": "ctat",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_04_unknown_vehicle_unknown_attack/triple-4.csv",
+      "sha256": "122c3d6aebe4babc9e56a5e2e75b564e51734814714814ffc0e5bd0147530c5a",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 12877037,
+      "kind": "road",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/ROAD/road/signal_extractions/ambient/accelerator_attack_drive_1.csv",
+      "sha256": "20744e81bbdb58292295243f81a832e150a197fbe443d1f1e7281c1653409661",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 10817267,
+      "kind": "road",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/ROAD/road/signal_extractions/ambient/accelerator_attack_drive_2.csv",
+      "sha256": "9908389d069c410f7734619ba48031527bc48e231a5c1176fa7e7e41ef38f0e9",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 12705269,
+      "kind": "road",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/ROAD/road/signal_extractions/ambient/accelerator_attack_reverse_1.csv",
+      "sha256": "be247bf7e2f58d30386f62eba1e2e00eab802f18ff097deee825958817335cfc",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 15701591,
+      "kind": "road",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/ROAD/road/signal_extractions/ambient/accelerator_attack_reverse_2.csv",
+      "sha256": "95ce09b7de3cff8545a07889969dbbfd33179f88b1ea323e6b28c8fdcd1adb74",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 188101947,
+      "kind": "road",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/ROAD/road/signal_extractions/ambient/ambient_dyno_drive_basic_long.csv",
+      "sha256": "fc4af90420e5ea02328a2d958db5a72e0e8f283859e60f70f2f5702e0723a2ce",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 67058935,
+      "kind": "road",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/ROAD/road/signal_extractions/ambient/ambient_dyno_drive_basic_short.csv",
+      "sha256": "764d3e3963ca3a3e61447944166f724d8a82ec64c3d25e89b16db88c871be5ab",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 47781360,
+      "kind": "road",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/ROAD/road/signal_extractions/ambient/ambient_dyno_drive_benign_anomaly.csv",
+      "sha256": "91778c539da53189c91923e9df91317a0d104c6b98e97681172023d9e13f40ee",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 89366969,
+      "kind": "road",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/ROAD/road/signal_extractions/ambient/ambient_dyno_drive_extended_long.csv",
+      "sha256": "3b69fb021476aab7948a6c88afc495441b533da1c0a6a03df721c7d27e7faf62",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 49650718,
+      "kind": "road",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/ROAD/road/signal_extractions/ambient/ambient_dyno_drive_extended_short.csv",
+      "sha256": "63c7bdb1d403559850da97e3d7e01190030e22c618b4b39819bee020d828af92",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 58362767,
+      "kind": "road",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/ROAD/road/signal_extractions/ambient/ambient_dyno_drive_radio_infotainment.csv",
+      "sha256": "00be3c7562863dd6fc1a66fbfeead12a6d3bec1c316a4c48c121b00d899d493d",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 7179274,
+      "kind": "road",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/ROAD/road/signal_extractions/ambient/ambient_dyno_drive_winter.csv",
+      "sha256": "d422e3f0aeb105492e3cfef0469ce1b932aaa1cb51b75b384d0abe25a003c27d",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 275877891,
+      "kind": "road",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/ROAD/road/signal_extractions/ambient/ambient_dyno_exercise_all_bits.csv",
+      "sha256": "8870e18beec66ef189cdf21ef3a223063f444d56c39f709897e1ab8c84f99e63",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 97350804,
+      "kind": "road",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/ROAD/road/signal_extractions/ambient/ambient_dyno_idle_radio_infotainment.csv",
+      "sha256": "8d7762a24fbb1607a08af45bfe221b46981fb2daabef570801f798c02553d61c",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 7699053,
+      "kind": "road",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/ROAD/road/signal_extractions/ambient/ambient_dyno_reverse.csv",
+      "sha256": "a80e2d6beaccfecdca6b0fc46accd26fd8e8660e1a074ffbf8f3e2c08379c404",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 70991688,
+      "kind": "road",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/ROAD/road/signal_extractions/ambient/ambient_highway_street_driving_diagnostics.csv",
+      "sha256": "a591305781f57e09f323b996a4aae09133568b36c983e6798d0d1e01807fb172",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 556424225,
+      "kind": "road",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/ROAD/road/signal_extractions/ambient/ambient_highway_street_driving_long.csv",
+      "sha256": "5aa9053ac44d127e5cea0e20045d19b031b75c02758ddebc81c705d15f303ef0",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 4974953,
+      "kind": "road",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/ROAD/road/signal_extractions/ambient/correlated_signal_attack_1_masquerade.csv",
+      "sha256": "0e03e5b74ccc2e26a7dd05984749c09bb7e247894ba0dea795603514045c350f",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 4255996,
+      "kind": "road",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/ROAD/road/signal_extractions/ambient/correlated_signal_attack_2_masquerade.csv",
+      "sha256": "9ab5791efd48ebbc4ceea53f2f0fac911e4e4788d570bb0be580716cf2314820",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 2550755,
+      "kind": "road",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/ROAD/road/signal_extractions/ambient/correlated_signal_attack_3_masquerade.csv",
+      "sha256": "56ee6ff7a4ce39c1322261df39fa27f63f6bee579e0f40de0b3c7701b4fc8e18",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 3873588,
+      "kind": "road",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/ROAD/road/signal_extractions/ambient/max_engine_coolant_temp_attack_masquerade.csv",
+      "sha256": "1234d16773e394b01507473e8f0524275b282d2c3eb75f424626aa13cdb78279",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 13171552,
+      "kind": "road",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/ROAD/road/signal_extractions/ambient/max_speedometer_attack_1_masquerade.csv",
+      "sha256": "385c51df86417cc62817a1f4a31770ebba1d732cfaf8d471a1cc79ae260a3cae",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 8971951,
+      "kind": "road",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/ROAD/road/signal_extractions/ambient/max_speedometer_attack_2_masquerade.csv",
+      "sha256": "2331683a010be5b5034f07c95e9ec8a365baf93ac6fdca31865d0bac4bb8f72b",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 12986141,
+      "kind": "road",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/ROAD/road/signal_extractions/ambient/max_speedometer_attack_3_masquerade.csv",
+      "sha256": "129baa9346a4f61718bb9c12984b9f10c9758b4ff3d8dbe937c816edef6c3826",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 4211797,
+      "kind": "road",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/ROAD/road/signal_extractions/ambient/reverse_light_off_attack_1_masquerade.csv",
+      "sha256": "7063d4621fd3e78ba5704c666f325809df77e429c570043618212c7e08f3aea0",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 6092391,
+      "kind": "road",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/ROAD/road/signal_extractions/ambient/reverse_light_off_attack_2_masquerade.csv",
+      "sha256": "0f05ad82d1371f1cb20e6a6564bba4a6cdbbac8af5014f577c0172fcf72216a1",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 8658429,
+      "kind": "road",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/ROAD/road/signal_extractions/ambient/reverse_light_off_attack_3_masquerade.csv",
+      "sha256": "ff45324f9e2cb0a20dc5e20794a02095c61fe4913d16146cd0dbe667b95c01e2",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 8202799,
+      "kind": "road",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/ROAD/road/signal_extractions/ambient/reverse_light_on_attack_1_masquerade.csv",
+      "sha256": "da1f73e5a8c0bbfb5d95185f06ab15ebbc3753a84191b00be84d70cf42e415e8",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 10788136,
+      "kind": "road",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/ROAD/road/signal_extractions/ambient/reverse_light_on_attack_2_masquerade.csv",
+      "sha256": "fc47e8cd595c8adab79aff7053ae13b10d81f0014cfc33d4807332182f4aaddc",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 9640775,
+      "kind": "road",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/ROAD/road/signal_extractions/ambient/reverse_light_on_attack_3_masquerade.csv",
+      "sha256": "3d1b7264bf77d3cd7a3088bf9145737e9db3ded78539e97688fddfecd9ae70a2",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 12877037,
+      "kind": "road",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/ROAD/road/signal_extractions/attacks/accelerator_attack_drive_1.csv",
+      "sha256": "20744e81bbdb58292295243f81a832e150a197fbe443d1f1e7281c1653409661",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 10817267,
+      "kind": "road",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/ROAD/road/signal_extractions/attacks/accelerator_attack_drive_2.csv",
+      "sha256": "9908389d069c410f7734619ba48031527bc48e231a5c1176fa7e7e41ef38f0e9",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 12705269,
+      "kind": "road",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/ROAD/road/signal_extractions/attacks/accelerator_attack_reverse_1.csv",
+      "sha256": "be247bf7e2f58d30386f62eba1e2e00eab802f18ff097deee825958817335cfc",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 15701591,
+      "kind": "road",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/ROAD/road/signal_extractions/attacks/accelerator_attack_reverse_2.csv",
+      "sha256": "95ce09b7de3cff8545a07889969dbbfd33179f88b1ea323e6b28c8fdcd1adb74",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 4974953,
+      "kind": "road",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/ROAD/road/signal_extractions/attacks/correlated_signal_attack_1_masquerade.csv",
+      "sha256": "0e03e5b74ccc2e26a7dd05984749c09bb7e247894ba0dea795603514045c350f",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 4255996,
+      "kind": "road",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/ROAD/road/signal_extractions/attacks/correlated_signal_attack_2_masquerade.csv",
+      "sha256": "9ab5791efd48ebbc4ceea53f2f0fac911e4e4788d570bb0be580716cf2314820",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 2550755,
+      "kind": "road",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/ROAD/road/signal_extractions/attacks/correlated_signal_attack_3_masquerade.csv",
+      "sha256": "56ee6ff7a4ce39c1322261df39fa27f63f6bee579e0f40de0b3c7701b4fc8e18",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 3873588,
+      "kind": "road",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/ROAD/road/signal_extractions/attacks/max_engine_coolant_temp_attack_masquerade.csv",
+      "sha256": "1234d16773e394b01507473e8f0524275b282d2c3eb75f424626aa13cdb78279",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 13171552,
+      "kind": "road",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/ROAD/road/signal_extractions/attacks/max_speedometer_attack_1_masquerade.csv",
+      "sha256": "385c51df86417cc62817a1f4a31770ebba1d732cfaf8d471a1cc79ae260a3cae",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 8971951,
+      "kind": "road",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/ROAD/road/signal_extractions/attacks/max_speedometer_attack_2_masquerade.csv",
+      "sha256": "2331683a010be5b5034f07c95e9ec8a365baf93ac6fdca31865d0bac4bb8f72b",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 12986141,
+      "kind": "road",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/ROAD/road/signal_extractions/attacks/max_speedometer_attack_3_masquerade.csv",
+      "sha256": "129baa9346a4f61718bb9c12984b9f10c9758b4ff3d8dbe937c816edef6c3826",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 4211797,
+      "kind": "road",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/ROAD/road/signal_extractions/attacks/reverse_light_off_attack_1_masquerade.csv",
+      "sha256": "7063d4621fd3e78ba5704c666f325809df77e429c570043618212c7e08f3aea0",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 6092391,
+      "kind": "road",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/ROAD/road/signal_extractions/attacks/reverse_light_off_attack_2_masquerade.csv",
+      "sha256": "0f05ad82d1371f1cb20e6a6564bba4a6cdbbac8af5014f577c0172fcf72216a1",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 8658429,
+      "kind": "road",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/ROAD/road/signal_extractions/attacks/reverse_light_off_attack_3_masquerade.csv",
+      "sha256": "ff45324f9e2cb0a20dc5e20794a02095c61fe4913d16146cd0dbe667b95c01e2",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 8202799,
+      "kind": "road",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/ROAD/road/signal_extractions/attacks/reverse_light_on_attack_1_masquerade.csv",
+      "sha256": "da1f73e5a8c0bbfb5d95185f06ab15ebbc3753a84191b00be84d70cf42e415e8",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 10788136,
+      "kind": "road",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/ROAD/road/signal_extractions/attacks/reverse_light_on_attack_2_masquerade.csv",
+      "sha256": "fc47e8cd595c8adab79aff7053ae13b10d81f0014cfc33d4807332182f4aaddc",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 9640775,
+      "kind": "road",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/ROAD/road/signal_extractions/attacks/reverse_light_on_attack_3_masquerade.csv",
+      "sha256": "3d1b7264bf77d3cd7a3088bf9145737e9db3ded78539e97688fddfecd9ae70a2",
+      "time_unit": "seconds"
+    },
+    {
+      "bytes": 356758055,
+      "kind": "syncan",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/SynCAN/train_1/train_1.csv",
+      "sha256": "2bcac8b7165e2daf51018dfc092327f6506e37bf31b49fe61d1070dfcd263f9f",
+      "time_unit": "milliseconds"
+    },
+    {
+      "bytes": 356256376,
+      "kind": "syncan",
+      "layout": "no_header",
+      "path": "/Users/dql/Datasets/can_ids/SynCAN/train_2/train_2.csv",
+      "sha256": "11cd4fa06eef8140b186e3b903e2d057368415e5627643d7fe68fd94c36fe26d",
+      "time_unit": "milliseconds"
+    },
+    {
+      "bytes": 356487129,
+      "kind": "syncan",
+      "layout": "no_header",
+      "path": "/Users/dql/Datasets/can_ids/SynCAN/train_3/train_3.csv",
+      "sha256": "c7f3efc5534b85814f4ff52b0233f41d541880ef405b4e484d2d87c723971db0",
+      "time_unit": "milliseconds"
+    },
+    {
+      "bytes": 356613749,
+      "kind": "syncan",
+      "layout": "no_header",
+      "path": "/Users/dql/Datasets/can_ids/SynCAN/train_4/train_4.csv",
+      "sha256": "5a4afbc1a726ac87fd07f9de2eec942538ca9b2d14500320b3d9a15f59be3a06",
+      "time_unit": "milliseconds"
+    },
+    {
+      "bytes": 103312862,
+      "kind": "syncan",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/SynCAN/test_continuous/test_continuous.csv",
+      "sha256": "609a7e1c29e15259a9bce4ba330462ea2a57dd3c89444892113aa5f2a0be6957",
+      "time_unit": "milliseconds"
+    },
+    {
+      "bytes": 123169061,
+      "kind": "syncan",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/SynCAN/test_flooding/test_flooding.csv",
+      "sha256": "e34f4d88e3b33810884b91b0e3d1a20db562c3918c4cf14522050193a7d90ec9",
+      "time_unit": "milliseconds"
+    },
+    {
+      "bytes": 103323024,
+      "kind": "syncan",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/SynCAN/test_normal/test_normal.csv",
+      "sha256": "cfc8c2278a0ae7f1faabad8f9dcabc06bc25ab8df8b783f056f65af68e96206a",
+      "time_unit": "milliseconds"
+    },
+    {
+      "bytes": 103592320,
+      "kind": "syncan",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/SynCAN/test_plateau/test_plateau.csv",
+      "sha256": "192f8c8c8db61b03205344845963a0ff8b4b0f94afec69ae37a8d45621bea094",
+      "time_unit": "milliseconds"
+    },
+    {
+      "bytes": 103257299,
+      "kind": "syncan",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/SynCAN/test_playback/test_playback.csv",
+      "sha256": "8a1abb348706f1b0f1899e95fc23778437b02f1e748b4ba0b1a068fbfbebf672",
+      "time_unit": "milliseconds"
+    },
+    {
+      "bytes": 101009039,
+      "kind": "syncan",
+      "layout": "header",
+      "path": "/Users/dql/Datasets/can_ids/SynCAN/test_suppress/test_suppress.csv",
+      "sha256": "d8152d99504cb3f9171824b1d5036b249b0a7237cd64e077244da15b8cd23c70",
+      "time_unit": "milliseconds"
+    }
+  ],
+  "parameters": {
+    "arm_a_levels_us": [
+      1.0,
+      10.0,
+      100.0,
+      1000.0
+    ],
+    "arm_b_attack_independent": [
+      "ctat"
+    ],
+    "arm_b_sigmas": [
+      0.05,
+      0.1,
+      0.2,
+      0.5,
+      1.0
+    ],
+    "arm_c_sigmas": [
+      0.05,
+      0.1,
+      0.2,
+      0.5,
+      1.0
+    ],
+    "n_seeds": 10,
+    "numpy_version": "2.3.5",
+    "pandas_version": "2.3.3",
+    "syncan_time_scale": 0.001
+  }
+}

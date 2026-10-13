@@ -251,7 +251,9 @@ def perturb(ts: np.ndarray, aid: np.ndarray, y: np.ndarray, seg: np.ndarray,
         # (实测 σ=0.05 时良性帧位移中位 45ms / max 2.0s, 而良性 gap 中位仅 10µs),
         # 于是 A(加性/有界) 与 B(乘性/无界) 同时差两个变量, 归因不成立。
         # Arm C = 有界的 gap 比例抖动: t'_i = t_i + ε_i·g_i, ε~N(0,σ) i.i.d.
-        # 位置不累积 → A vs C 隔离"加性 vs 乘性", C vs B 隔离"有界 vs 漂移"。
+        # 位置不累积 → Arm B 是 "jitter + cumulative drift"; C 消除了累积成分,
+        # 但 B/C 的位移分布与相关结构不同, C vs B 并不隔离"漂移"这单一变量
+        # (与论文 method/results 章口径一致: "does not isolate drift")。
         out = ts.copy()
         idx = (np.flatnonzero(y == 0) if bench in ARM_B_ATTACK_INDEPENDENT
                else np.arange(len(ts)))

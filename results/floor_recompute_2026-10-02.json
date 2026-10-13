@@ -1,0 +1,2199 @@
+{
+ "CrySyS (benign recordings)": {
+  "per_file": [
+   {
+    "median_us": 247.0,
+    "n": 17934,
+    "n_below_abs": 0,
+    "name": "S-1-1-benign.log",
+    "rho_lt_abs": 0.0,
+    "rho_lt_exact": 5.576000892160143e-05,
+    "rho_lt_old": 0.0004460800713728114,
+    "standard_median_us": 247.0
+   },
+   {
+    "median_us": 599.0,
+    "n": 17887,
+    "n_below_abs": 0,
+    "name": "S-1-2-benign.log",
+    "rho_lt_abs": 0.0,
+    "rho_lt_exact": 0.0,
+    "rho_lt_old": 0.00011181304858276961,
+    "standard_median_us": 599.0
+   },
+   {
+    "median_us": 242.0,
+    "n": 17981,
+    "n_below_abs": 0,
+    "name": "S-1-3-benign.log",
+    "rho_lt_abs": 0.0,
+    "rho_lt_exact": 0.00011122851899226962,
+    "rho_lt_old": 0.00016684277848840444,
+    "standard_median_us": 242.0
+   },
+   {
+    "median_us": 244.0,
+    "n": 17910,
+    "n_below_abs": 1,
+    "name": "S-1-4-benign.log",
+    "rho_lt_abs": 5.583472920156337e-05,
+    "rho_lt_exact": 5.583472920156337e-05,
+    "rho_lt_old": 5.583472920156337e-05,
+    "standard_median_us": 244.0
+   },
+   {
+    "median_us": 243.0,
+    "n": 19442,
+    "n_below_abs": 0,
+    "name": "S-1-5-benign.log",
+    "rho_lt_abs": 0.0,
+    "rho_lt_exact": 5.143503754757741e-05,
+    "rho_lt_old": 0.00020574015019030964,
+    "standard_median_us": 243.0
+   },
+   {
+    "median_us": 243.0,
+    "n": 17403,
+    "n_below_abs": 0,
+    "name": "S-1-6-benign.log",
+    "rho_lt_abs": 0.0,
+    "rho_lt_exact": 0.00011492271447451588,
+    "rho_lt_old": 0.00022984542894903176,
+    "standard_median_us": 243.0
+   },
+   {
+    "median_us": 244.0,
+    "n": 17908,
+    "n_below_abs": 1,
+    "name": "S-2-1-benign.log",
+    "rho_lt_abs": 5.584096493187402e-05,
+    "rho_lt_exact": 0.00016752289479562206,
+    "rho_lt_old": 0.00022336385972749609,
+    "standard_median_us": 244.0
+   },
+   {
+    "median_us": 241.0,
+    "n": 17896,
+    "n_below_abs": 0,
+    "name": "S-2-2-benign.log",
+    "rho_lt_abs": 0.0,
+    "rho_lt_exact": 0.0,
+    "rho_lt_old": 5.587840858292356e-05,
+    "standard_median_us": 241.0
+   },
+   {
+    "median_us": 244.0,
+    "n": 18444,
+    "n_below_abs": 0,
+    "name": "S-2-3-benign.log",
+    "rho_lt_abs": 0.0,
+    "rho_lt_exact": 0.00010843634786380394,
+    "rho_lt_old": 0.00027109086965950986,
+    "standard_median_us": 244.0
+   },
+   {
+    "median_us": 244.0,
+    "n": 17999,
+    "n_below_abs": 0,
+    "name": "S-2-4-benign.log",
+    "rho_lt_abs": 0.0,
+    "rho_lt_exact": 5.555864214678593e-05,
+    "rho_lt_old": 0.0001666759264403578,
+    "standard_median_us": 244.0
+   },
+   {
+    "median_us": 243.0,
+    "n": 19076,
+    "n_below_abs": 0,
+    "name": "S-2-5-benign.log",
+    "rho_lt_abs": 0.0,
+    "rho_lt_exact": 0.0,
+    "rho_lt_old": 5.242189138184106e-05,
+    "standard_median_us": 243.0
+   },
+   {
+    "median_us": 426.0,
+    "n": 18552,
+    "n_below_abs": 0,
+    "name": "S-2-6-benign.log",
+    "rho_lt_abs": 0.0,
+    "rho_lt_exact": 0.0,
+    "rho_lt_old": 5.3902544200086246e-05,
+    "standard_median_us": 422.5
+   },
+   {
+    "median_us": 583.0,
+    "n": 17668,
+    "n_below_abs": 0,
+    "name": "S-3-1-benign.log",
+    "rho_lt_abs": 0.0,
+    "rho_lt_exact": 0.00011319900384876613,
+    "rho_lt_old": 0.00011319900384876613,
+    "standard_median_us": 579.5
+   },
+   {
+    "median_us": 247.0,
+    "n": 19326,
+    "n_below_abs": 1,
+    "name": "S-3-2-benign.log",
+    "rho_lt_abs": 5.17437648763324e-05,
+    "rho_lt_exact": 0.0001552312946289972,
+    "rho_lt_old": 0.0001552312946289972,
+    "standard_median_us": 247.0
+   },
+   {
+    "median_us": 246.0,
+    "n": 18334,
+    "n_below_abs": 0,
+    "name": "S-3-3-benign.log",
+    "rho_lt_abs": 0.0,
+    "rho_lt_exact": 0.0,
+    "rho_lt_old": 5.4543471146503765e-05,
+    "standard_median_us": 246.0
+   },
+   {
+    "median_us": 248.0,
+    "n": 256920,
+    "n_below_abs": 0,
+    "name": "T-1-1-benign.log",
+    "rho_lt_abs": 0.0,
+    "rho_lt_exact": 2.7245835279464425e-05,
+    "rho_lt_old": 4.6707146193367584e-05,
+    "standard_median_us": 248.0
+   },
+   {
+    "median_us": 247.0,
+    "n": 748240,
+    "n_below_abs": 1,
+    "name": "T-1-2-benign.log",
+    "rho_lt_abs": 1.3364695819523148e-06,
+    "rho_lt_exact": 2.6729391639046295e-05,
+    "rho_lt_old": 6.0141131187854165e-05,
+    "standard_median_us": 247.0
+   },
+   {
+    "median_us": 245.0,
+    "n": 660879,
+    "n_below_abs": 1,
+    "name": "T-1-3-benign.log",
+    "rho_lt_abs": 1.5131362927252947e-06,
+    "rho_lt_exact": 1.8157635512703537e-05,
+    "rho_lt_old": 5.447290653811061e-05,
+    "standard_median_us": 245.0
+   },
+   {
+    "median_us": 249.0,
+    "n": 940153,
+    "n_below_abs": 3,
+    "name": "T-1-4-benign.log",
+    "rho_lt_abs": 3.190969980418081e-06,
+    "rho_lt_exact": 5.318283300696802e-06,
+    "rho_lt_old": 2.978238648390209e-05,
+    "standard_median_us": 249.0
+   },
+   {
+    "median_us": 248.0,
+    "n": 629785,
+    "n_below_abs": 2,
+    "name": "T-1-5-benign.log",
+    "rho_lt_abs": 3.1756869407813777e-06,
+    "rho_lt_exact": 1.9054121644688267e-05,
+    "rho_lt_old": 3.4932556348595154e-05,
+    "standard_median_us": 248.0
+   },
+   {
+    "median_us": 246.0,
+    "n": 733932,
+    "n_below_abs": 1,
+    "name": "T-1-6-benign.log",
+    "rho_lt_abs": 1.3625240485494568e-06,
+    "rho_lt_exact": 9.537668339846198e-06,
+    "rho_lt_old": 2.4525432873890226e-05,
+    "standard_median_us": 246.0
+   },
+   {
+    "median_us": 246.0,
+    "n": 156370,
+    "n_below_abs": 0,
+    "name": "T-1-7-benign.log",
+    "rho_lt_abs": 0.0,
+    "rho_lt_exact": 5.116070857581378e-05,
+    "rho_lt_old": 0.00013429686001151115,
+    "standard_median_us": 246.0
+   },
+   {
+    "median_us": 244.0,
+    "n": 214624,
+    "n_below_abs": 0,
+    "name": "T-2-1-benign.log",
+    "rho_lt_abs": 0.0,
+    "rho_lt_exact": 4.659311167437006e-06,
+    "rho_lt_old": 1.3977933502311018e-05,
+    "standard_median_us": 244.0
+   },
+   {
+    "median_us": 245.0,
+    "n": 221906,
+    "n_below_abs": 0,
+    "name": "T-2-2-benign.log",
+    "rho_lt_abs": 0.0,
+    "rho_lt_exact": 9.01282525033122e-06,
+    "rho_lt_old": 1.3519237875496833e-05,
+    "standard_median_us": 245.0
+   },
+   {
+    "median_us": 245.0,
+    "n": 328900,
+    "n_below_abs": 1,
+    "name": "T-3-1-benign.log",
+    "rho_lt_abs": 3.040437823046519e-06,
+    "rho_lt_exact": 1.5202189115232593e-05,
+    "rho_lt_old": 6.384919428397689e-05,
+    "standard_median_us": 245.0
+   },
+   {
+    "median_us": 244.0,
+    "n": 334979,
+    "n_below_abs": 0,
+    "name": "T-3-2-benign.log",
+    "rho_lt_abs": 0.0,
+    "rho_lt_exact": 1.7911570576065963e-05,
+    "rho_lt_old": 2.6867355864098943e-05,
+    "standard_median_us": 244.0
+   }
+  ],
+  "pooled": {
+   "median_us": 246.0,
+   "n": 5500448,
+   "n_below_abs": 12,
+   "name": "POOLED",
+   "rho_lt_abs": 2.1816404772847595e-06,
+   "rho_lt_exact": 1.872574743002752e-05,
+   "rho_lt_old": 4.7450680380943515e-05,
+   "standard_median_us": 246.0
+  }
+ },
+ "ROAD (45 files)": {
+  "per_file": [
+   {
+    "median_us": 1,
+    "n": 2991271,
+    "n_below_abs": 1927049,
+    "name": "ambient_dyno_drive_basic_long.log",
+    "rho_lt_abs": 0.6442241441848632,
+    "rho_lt_exact": 0.6442248127969682,
+    "rho_lt_old": 0.6442248127969682,
+    "standard_median_us": 1.0
+   },
+   {
+    "median_us": 1,
+    "n": 1063623,
+    "n_below_abs": 685805,
+    "name": "ambient_dyno_drive_basic_short.log",
+    "rho_lt_abs": 0.6447820327315223,
+    "rho_lt_exact": 0.6447820327315223,
+    "rho_lt_old": 0.6447829729142751,
+    "standard_median_us": 1.0
+   },
+   {
+    "median_us": 1,
+    "n": 771518,
+    "n_below_abs": 484512,
+    "name": "ambient_dyno_drive_benign_anomaly.log",
+    "rho_lt_abs": 0.6279983098255647,
+    "rho_lt_exact": 0.6279983098255647,
+    "rho_lt_old": 0.6279983098255647,
+    "standard_median_us": 1.0
+   },
+   {
+    "median_us": 1,
+    "n": 1424207,
+    "n_below_abs": 901128,
+    "name": "ambient_dyno_drive_extended_long.log",
+    "rho_lt_abs": 0.6327226309096922,
+    "rho_lt_exact": 0.6327226309096922,
+    "rho_lt_old": 0.6327226309096922,
+    "standard_median_us": 1.0
+   },
+   {
+    "median_us": 1,
+    "n": 790441,
+    "n_below_abs": 504946,
+    "name": "ambient_dyno_drive_extended_short.log",
+    "rho_lt_abs": 0.6388155472704478,
+    "rho_lt_exact": 0.6388180775035708,
+    "rho_lt_old": 0.6388180775035708,
+    "standard_median_us": 1.0
+   },
+   {
+    "median_us": 1,
+    "n": 932851,
+    "n_below_abs": 590221,
+    "name": "ambient_dyno_drive_radio_infotainment.log",
+    "rho_lt_abs": 0.6327066165979347,
+    "rho_lt_exact": 0.6327087605630481,
+    "rho_lt_old": 0.6327087605630481,
+    "standard_median_us": 1.0
+   },
+   {
+    "median_us": 1,
+    "n": 114147,
+    "n_below_abs": 74832,
+    "name": "ambient_dyno_drive_winter.log",
+    "rho_lt_abs": 0.6555757050119583,
+    "rho_lt_exact": 0.6555757050119583,
+    "rho_lt_old": 0.6555757050119583,
+    "standard_median_us": 1.0
+   },
+   {
+    "median_us": 1,
+    "n": 4419421,
+    "n_below_abs": 2805135,
+    "name": "ambient_dyno_exercise_all_bits.log",
+    "rho_lt_abs": 0.6347290742384579,
+    "rho_lt_exact": 0.6347290742384579,
+    "rho_lt_old": 0.6347290742384579,
+    "standard_median_us": 1.0
+   },
+   {
+    "median_us": 1,
+    "n": 1572317,
+    "n_below_abs": 1004405,
+    "name": "ambient_dyno_idle_radio_infotainment.log",
+    "rho_lt_abs": 0.6388056606905604,
+    "rho_lt_exact": 0.638806932698686,
+    "rho_lt_old": 0.638806932698686,
+    "standard_median_us": 1.0
+   },
+   {
+    "median_us": 2,
+    "n": 123046,
+    "n_below_abs": 77122,
+    "name": "ambient_dyno_reverse.log",
+    "rho_lt_abs": 0.6267737268988833,
+    "rho_lt_exact": 0.6267737268988833,
+    "rho_lt_old": 0.6267981080246412,
+    "standard_median_us": 2.0
+   },
+   {
+    "median_us": 1,
+    "n": 1124750,
+    "n_below_abs": 732949,
+    "name": "ambient_highway_street_driving_diagnostics.log",
+    "rho_lt_abs": 0.6516550344521005,
+    "rho_lt_exact": 0.6516550344521005,
+    "rho_lt_old": 0.6516550344521005,
+    "standard_median_us": 1.0
+   },
+   {
+    "median_us": 1,
+    "n": 8821915,
+    "n_below_abs": 5689045,
+    "name": "ambient_highway_street_driving_long.log",
+    "rho_lt_abs": 0.6448764242230853,
+    "rho_lt_exact": 0.6448764242230853,
+    "rho_lt_old": 0.6448764242230853,
+    "standard_median_us": 1.0
+   },
+   {
+    "median_us": 2,
+    "n": 204759,
+    "n_below_abs": 128384,
+    "name": "accelerator_attack_drive_1.log",
+    "rho_lt_abs": 0.6270005225655527,
+    "rho_lt_exact": 0.6270005225655527,
+    "rho_lt_old": 0.6270102901459765,
+    "standard_median_us": 2.0
+   },
+   {
+    "median_us": 2,
+    "n": 171935,
+    "n_below_abs": 109733,
+    "name": "accelerator_attack_drive_2.log",
+    "rho_lt_abs": 0.6382237473463809,
+    "rho_lt_exact": 0.6382237473463809,
+    "rho_lt_old": 0.6382295634978334,
+    "standard_median_us": 2.0
+   },
+   {
+    "median_us": 1,
+    "n": 202446,
+    "n_below_abs": 134996,
+    "name": "accelerator_attack_reverse_1.log",
+    "rho_lt_abs": 0.6668247335091827,
+    "rho_lt_exact": 0.6668247335091827,
+    "rho_lt_old": 0.6668247335091827,
+    "standard_median_us": 1.0
+   },
+   {
+    "median_us": 2,
+    "n": 249412,
+    "n_below_abs": 156784,
+    "name": "accelerator_attack_reverse_2.log",
+    "rho_lt_abs": 0.6286145013070742,
+    "rho_lt_exact": 0.6286145013070742,
+    "rho_lt_old": 0.6286145013070742,
+    "standard_median_us": 2.0
+   },
+   {
+    "median_us": 2,
+    "n": 81261,
+    "n_below_abs": 51949,
+    "name": "correlated_signal_attack_1.log",
+    "rho_lt_abs": 0.639285758235808,
+    "rho_lt_exact": 0.639285758235808,
+    "rho_lt_old": 0.639285758235808,
+    "standard_median_us": 2.0
+   },
+   {
+    "median_us": 2,
+    "n": 79175,
+    "n_below_abs": 49948,
+    "name": "correlated_signal_attack_1_masquerade.log",
+    "rho_lt_abs": 0.6308556994000631,
+    "rho_lt_exact": 0.6308556994000631,
+    "rho_lt_old": 0.6308556994000631,
+    "standard_median_us": 2.0
+   },
+   {
+    "median_us": 2,
+    "n": 69656,
+    "n_below_abs": 45344,
+    "name": "correlated_signal_attack_2.log",
+    "rho_lt_abs": 0.6509704835190077,
+    "rho_lt_exact": 0.6509704835190077,
+    "rho_lt_old": 0.6509704835190077,
+    "standard_median_us": 2.0
+   },
+   {
+    "median_us": 2,
+    "n": 67516,
+    "n_below_abs": 43704,
+    "name": "correlated_signal_attack_2_masquerade.log",
+    "rho_lt_abs": 0.6473132294567213,
+    "rho_lt_exact": 0.6473132294567213,
+    "rho_lt_old": 0.6473132294567213,
+    "standard_median_us": 2.0
+   },
+   {
+    "median_us": 2,
+    "n": 41828,
+    "n_below_abs": 27420,
+    "name": "correlated_signal_attack_3.log",
+    "rho_lt_abs": 0.6555417423735297,
+    "rho_lt_exact": 0.6555417423735297,
+    "rho_lt_old": 0.6555417423735297,
+    "standard_median_us": 2.0
+   },
+   {
+    "median_us": 2,
+    "n": 40564,
+    "n_below_abs": 26616,
+    "name": "correlated_signal_attack_3_masquerade.log",
+    "rho_lt_abs": 0.6561483088452815,
+    "rho_lt_exact": 0.6561483088452815,
+    "rho_lt_old": 0.6561483088452815,
+    "standard_median_us": 2.0
+   },
+   {
+    "median_us": 1,
+    "n": 49341,
+    "n_below_abs": 31660,
+    "name": "fuzzing_attack_1.log",
+    "rho_lt_abs": 0.6416570397843578,
+    "rho_lt_exact": 0.6416570397843578,
+    "rho_lt_old": 0.6416570397843578,
+    "standard_median_us": 1.0
+   },
+   {
+    "median_us": 2,
+    "n": 32350,
+    "n_below_abs": 20023,
+    "name": "fuzzing_attack_2.log",
+    "rho_lt_abs": 0.6189489953632148,
+    "rho_lt_exact": 0.6189489953632148,
+    "rho_lt_old": 0.6189489953632148,
+    "standard_median_us": 2.0
+   },
+   {
+    "median_us": 1,
+    "n": 13237,
+    "n_below_abs": 8560,
+    "name": "fuzzing_attack_3.log",
+    "rho_lt_abs": 0.6466722066933596,
+    "rho_lt_exact": 0.6466722066933596,
+    "rho_lt_old": 0.6466722066933596,
+    "standard_median_us": 1.0
+   },
+   {
+    "median_us": 1,
+    "n": 61922,
+    "n_below_abs": 40917,
+    "name": "max_engine_coolant_temp_attack.log",
+    "rho_lt_abs": 0.6607829204483059,
+    "rho_lt_exact": 0.6607829204483059,
+    "rho_lt_old": 0.6607829204483059,
+    "standard_median_us": 1.0
+   },
+   {
+    "median_us": 1,
+    "n": 61880,
+    "n_below_abs": 40875,
+    "name": "max_engine_coolant_temp_attack_masquerade.log",
+    "rho_lt_abs": 0.6605526826115061,
+    "rho_lt_exact": 0.6605526826115061,
+    "rho_lt_old": 0.6605526826115061,
+    "standard_median_us": 1.0
+   },
+   {
+    "median_us": 1,
+    "n": 213396,
+    "n_below_abs": 140810,
+    "name": "max_speedometer_attack_1.log",
+    "rho_lt_abs": 0.6598530431685692,
+    "rho_lt_exact": 0.6598530431685692,
+    "rho_lt_old": 0.6598577292920205,
+    "standard_median_us": 1.0
+   },
+   {
+    "median_us": 1,
+    "n": 210952,
+    "n_below_abs": 139104,
+    "name": "max_speedometer_attack_1_masquerade.log",
+    "rho_lt_abs": 0.6594106716219803,
+    "rho_lt_exact": 0.6594106716219803,
+    "rho_lt_old": 0.6594106716219803,
+    "standard_median_us": 1.0
+   },
+   {
+    "median_us": 2,
+    "n": 145893,
+    "n_below_abs": 91362,
+    "name": "max_speedometer_attack_2.log",
+    "rho_lt_abs": 0.6262260697908741,
+    "rho_lt_exact": 0.6262260697908741,
+    "rho_lt_old": 0.6262260697908741,
+    "standard_median_us": 2.0
+   },
+   {
+    "median_us": 2,
+    "n": 142753,
+    "n_below_abs": 89116,
+    "name": "max_speedometer_attack_2_masquerade.log",
+    "rho_lt_abs": 0.624267090709127,
+    "rho_lt_exact": 0.624267090709127,
+    "rho_lt_old": 0.624267090709127,
+    "standard_median_us": 2.0
+   },
+   {
+    "median_us": 2,
+    "n": 213550,
+    "n_below_abs": 137628,
+    "name": "max_speedometer_attack_3.log",
+    "rho_lt_abs": 0.644476703348162,
+    "rho_lt_exact": 0.644476703348162,
+    "rho_lt_old": 0.64448138609225,
+    "standard_median_us": 2.0
+   },
+   {
+    "median_us": 2,
+    "n": 207443,
+    "n_below_abs": 131531,
+    "name": "max_speedometer_attack_3_masquerade.log",
+    "rho_lt_abs": 0.6340585124588441,
+    "rho_lt_exact": 0.6340585124588441,
+    "rho_lt_old": 0.6340633330601659,
+    "standard_median_us": 2.0
+   },
+   {
+    "median_us": 2,
+    "n": 67901,
+    "n_below_abs": 42413,
+    "name": "reverse_light_off_attack_1.log",
+    "rho_lt_abs": 0.6246299759944626,
+    "rho_lt_exact": 0.6246299759944626,
+    "rho_lt_old": 0.6246299759944626,
+    "standard_median_us": 2.0
+   },
+   {
+    "median_us": 2,
+    "n": 67229,
+    "n_below_abs": 41848,
+    "name": "reverse_light_off_attack_1_masquerade.log",
+    "rho_lt_abs": 0.6224694700203781,
+    "rho_lt_exact": 0.6224694700203781,
+    "rho_lt_old": 0.6224694700203781,
+    "standard_median_us": 2.0
+   },
+   {
+    "median_us": 2,
+    "n": 99627,
+    "n_below_abs": 63410,
+    "name": "reverse_light_off_attack_2.log",
+    "rho_lt_abs": 0.6364740481997851,
+    "rho_lt_exact": 0.6364740481997851,
+    "rho_lt_old": 0.6364740481997851,
+    "standard_median_us": 2.0
+   },
+   {
+    "median_us": 2,
+    "n": 97256,
+    "n_below_abs": 61093,
+    "name": "reverse_light_off_attack_2_masquerade.log",
+    "rho_lt_abs": 0.6281668997285514,
+    "rho_lt_exact": 0.6281668997285514,
+    "rho_lt_old": 0.6281668997285514,
+    "standard_median_us": 2.0
+   },
+   {
+    "median_us": 2,
+    "n": 140854,
+    "n_below_abs": 88861,
+    "name": "reverse_light_off_attack_3.log",
+    "rho_lt_abs": 0.6308731026452923,
+    "rho_lt_exact": 0.6308802021951808,
+    "rho_lt_old": 0.6308802021951808,
+    "standard_median_us": 2.0
+   },
+   {
+    "median_us": 2,
+    "n": 138420,
+    "n_below_abs": 86437,
+    "name": "reverse_light_off_attack_3_masquerade.log",
+    "rho_lt_abs": 0.6244545585897991,
+    "rho_lt_exact": 0.6244617829793383,
+    "rho_lt_old": 0.6244617829793383,
+    "standard_median_us": 2.0
+   },
+   {
+    "median_us": 2,
+    "n": 133236,
+    "n_below_abs": 86473,
+    "name": "reverse_light_on_attack_1.log",
+    "rho_lt_abs": 0.6490212855384431,
+    "rho_lt_exact": 0.6490287910174427,
+    "rho_lt_old": 0.6490287910174427,
+    "standard_median_us": 2.0
+   },
+   {
+    "median_us": 2,
+    "n": 131245,
+    "n_below_abs": 84911,
+    "name": "reverse_light_on_attack_1_masquerade.log",
+    "rho_lt_abs": 0.6469655986894739,
+    "rho_lt_exact": 0.6469732180273534,
+    "rho_lt_old": 0.6469732180273534,
+    "standard_median_us": 2.0
+   },
+   {
+    "median_us": 2,
+    "n": 175944,
+    "n_below_abs": 113410,
+    "name": "reverse_light_on_attack_2.log",
+    "rho_lt_abs": 0.6445800936661665,
+    "rho_lt_exact": 0.644585777292775,
+    "rho_lt_old": 0.644585777292775,
+    "standard_median_us": 2.0
+   },
+   {
+    "median_us": 2,
+    "n": 172255,
+    "n_below_abs": 109730,
+    "name": "reverse_light_on_attack_2_masquerade.log",
+    "rho_lt_abs": 0.6370206960610723,
+    "rho_lt_exact": 0.6370265014077966,
+    "rho_lt_old": 0.6370265014077966,
+    "standard_median_us": 2.0
+   },
+   {
+    "median_us": 2,
+    "n": 156051,
+    "n_below_abs": 99994,
+    "name": "reverse_light_on_attack_3.log",
+    "rho_lt_abs": 0.6407776944716791,
+    "rho_lt_exact": 0.6407776944716791,
+    "rho_lt_old": 0.6407776944716791,
+    "standard_median_us": 2.0
+   },
+   {
+    "median_us": 2,
+    "n": 153700,
+    "n_below_abs": 97644,
+    "name": "reverse_light_on_attack_3_masquerade.log",
+    "rho_lt_abs": 0.6352895250487963,
+    "rho_lt_exact": 0.6352895250487963,
+    "rho_lt_old": 0.6352895250487963,
+    "standard_median_us": 2.0
+   }
+  ],
+  "pooled": {
+   "median_us": 1,
+   "n": 28244494,
+   "n_below_abs": 18099837,
+   "name": "POOLED",
+   "rho_lt_abs": 0.6408270935921174,
+   "rho_lt_exact": 0.6408275892639465,
+   "rho_lt_old": 0.6408279433152528,
+   "standard_median_us": 1.0
+  }
+ },
+ "can-train-and-test (normal frames only)": {
+  "affected_medians": {
+   "file_denominator": 48,
+   "files": [
+    "set_01/test_01_known_vehicle_known_attack/DoS-3.csv",
+    "set_01/test_01_known_vehicle_known_attack/DoS-4.csv",
+    "set_01/test_01_known_vehicle_known_attack/force-neutral-3.csv",
+    "set_01/test_01_known_vehicle_known_attack/force-neutral-4.csv",
+    "set_01/test_01_known_vehicle_known_attack/rpm-3.csv",
+    "set_01/test_01_known_vehicle_known_attack/rpm-4.csv",
+    "set_01/test_01_known_vehicle_known_attack/standstill-3.csv",
+    "set_01/test_01_known_vehicle_known_attack/standstill-4.csv",
+    "set_01/test_02_unknown_vehicle_known_attack/DoS-3.csv",
+    "set_01/test_02_unknown_vehicle_known_attack/DoS-4.csv",
+    "set_01/test_02_unknown_vehicle_known_attack/force-neutral-3.csv",
+    "set_01/test_02_unknown_vehicle_known_attack/force-neutral-4.csv",
+    "set_01/test_02_unknown_vehicle_known_attack/rpm-3.csv",
+    "set_01/test_02_unknown_vehicle_known_attack/rpm-4.csv",
+    "set_01/test_02_unknown_vehicle_known_attack/standstill-3.csv",
+    "set_01/test_02_unknown_vehicle_known_attack/standstill-4.csv",
+    "set_01/test_03_known_vehicle_unknown_attack/double-3.csv",
+    "set_01/test_03_known_vehicle_unknown_attack/double-4.csv",
+    "set_01/test_03_known_vehicle_unknown_attack/fuzzing-3.csv",
+    "set_01/test_03_known_vehicle_unknown_attack/fuzzing-4.csv",
+    "set_01/test_03_known_vehicle_unknown_attack/interval-3.csv",
+    "set_01/test_03_known_vehicle_unknown_attack/interval-4.csv",
+    "set_01/test_03_known_vehicle_unknown_attack/speed-3.csv",
+    "set_01/test_03_known_vehicle_unknown_attack/speed-4.csv",
+    "set_01/test_03_known_vehicle_unknown_attack/systematic-3.csv",
+    "set_01/test_03_known_vehicle_unknown_attack/systematic-4.csv",
+    "set_01/test_03_known_vehicle_unknown_attack/triple-3.csv",
+    "set_01/test_03_known_vehicle_unknown_attack/triple-4.csv",
+    "set_01/test_04_unknown_vehicle_unknown_attack/double-3.csv",
+    "set_01/test_04_unknown_vehicle_unknown_attack/double-4.csv",
+    "set_01/test_04_unknown_vehicle_unknown_attack/fuzzing-3.csv",
+    "set_01/test_04_unknown_vehicle_unknown_attack/fuzzing-4.csv",
+    "set_01/test_04_unknown_vehicle_unknown_attack/interval-3.csv",
+    "set_01/test_04_unknown_vehicle_unknown_attack/interval-4.csv",
+    "set_01/test_04_unknown_vehicle_unknown_attack/speed-3.csv",
+    "set_01/test_04_unknown_vehicle_unknown_attack/speed-4.csv",
+    "set_01/test_04_unknown_vehicle_unknown_attack/systematic-3.csv",
+    "set_01/test_04_unknown_vehicle_unknown_attack/systematic-4.csv",
+    "set_01/test_04_unknown_vehicle_unknown_attack/triple-3.csv",
+    "set_01/test_04_unknown_vehicle_unknown_attack/triple-4.csv",
+    "set_01/train_01/DoS-1.csv",
+    "set_01/train_01/DoS-2.csv",
+    "set_01/train_01/force-neutral-1.csv",
+    "set_01/train_01/force-neutral-2.csv",
+    "set_01/train_01/rpm-1.csv",
+    "set_01/train_01/rpm-2.csv",
+    "set_01/train_01/standstill-1.csv",
+    "set_01/train_01/standstill-2.csv"
+   ],
+   "median_of_file_medians_us": 11.0,
+   "pooled_gap_denominator": 40505015,
+   "pooled_gap_median_us": 11.0
+  },
+  "per_file": [
+   {
+    "median_us": 11.0,
+    "n": 126691,
+    "n_below_abs": 83617,
+    "name": "set_01/test_01_known_vehicle_known_attack/DoS-3.csv",
+    "rho_lt_abs": 0.6600074196272822,
+    "rho_lt_exact": 0.660741489134982,
+    "rho_lt_old": 0.6607967416785723,
+    "standard_median_us": 11.0
+   },
+   {
+    "median_us": 16.0,
+    "n": 868703,
+    "n_below_abs": 551305,
+    "name": "set_01/test_01_known_vehicle_known_attack/DoS-4.csv",
+    "rho_lt_abs": 0.6346300173937468,
+    "rho_lt_exact": 0.6356211501514326,
+    "rho_lt_old": 0.635674102656489,
+    "standard_median_us": 16.0
+   },
+   {
+    "median_us": 11.0,
+    "n": 899919,
+    "n_below_abs": 556585,
+    "name": "set_01/test_01_known_vehicle_known_attack/force-neutral-3.csv",
+    "rho_lt_abs": 0.6184834412874937,
+    "rho_lt_exact": 0.618824583101368,
+    "rho_lt_old": 0.6188590306460915,
+    "standard_median_us": 11.0
+   },
+   {
+    "median_us": 11.0,
+    "n": 839354,
+    "n_below_abs": 516616,
+    "name": "set_01/test_01_known_vehicle_known_attack/force-neutral-4.csv",
+    "rho_lt_abs": 0.6154923905765625,
+    "rho_lt_exact": 0.615800961215411,
+    "rho_lt_old": 0.6158331288109665,
+    "standard_median_us": 11.0
+   },
+   {
+    "median_us": 11.2,
+    "n": 802640,
+    "n_below_abs": 495342,
+    "name": "set_01/test_01_known_vehicle_known_attack/rpm-3.csv",
+    "rho_lt_abs": 0.6171409349147812,
+    "rho_lt_exact": 0.6174748330509319,
+    "rho_lt_old": 0.6174935213794478,
+    "standard_median_us": 11.2
+   },
+   {
+    "median_us": 11.9,
+    "n": 823559,
+    "n_below_abs": 507018,
+    "name": "set_01/test_01_known_vehicle_known_attack/rpm-4.csv",
+    "rho_lt_abs": 0.6156425951267608,
+    "rho_lt_exact": 0.6159765117010438,
+    "rho_lt_old": 0.6159959395744568,
+    "standard_median_us": 11.9
+   },
+   {
+    "median_us": 11.0,
+    "n": 626261,
+    "n_below_abs": 388165,
+    "name": "set_01/test_01_known_vehicle_known_attack/standstill-3.csv",
+    "rho_lt_abs": 0.6198134643543187,
+    "rho_lt_exact": 0.6201759330375035,
+    "rho_lt_old": 0.6202174492743441,
+    "standard_median_us": 11.0
+   },
+   {
+    "median_us": 12.0,
+    "n": 621177,
+    "n_below_abs": 382547,
+    "name": "set_01/test_01_known_vehicle_known_attack/standstill-4.csv",
+    "rho_lt_abs": 0.615842183467836,
+    "rho_lt_exact": 0.6161722021259641,
+    "rho_lt_old": 0.6161866907499794,
+    "standard_median_us": 12.0
+   },
+   {
+    "median_us": 8.8,
+    "n": 847084,
+    "n_below_abs": 671024,
+    "name": "set_01/test_02_unknown_vehicle_known_attack/DoS-3.csv",
+    "rho_lt_abs": 0.7921575664278867,
+    "rho_lt_exact": 0.7923606159483593,
+    "rho_lt_old": 0.792380684796313,
+    "standard_median_us": 8.8
+   },
+   {
+    "median_us": 10.0,
+    "n": 679444,
+    "n_below_abs": 487232,
+    "name": "set_01/test_02_unknown_vehicle_known_attack/DoS-4.csv",
+    "rho_lt_abs": 0.7171039850230483,
+    "rho_lt_exact": 0.7172246719376432,
+    "rho_lt_old": 0.7172423334373399,
+    "standard_median_us": 10.0
+   },
+   {
+    "median_us": 9.1,
+    "n": 449396,
+    "n_below_abs": 321650,
+    "name": "set_01/test_02_unknown_vehicle_known_attack/force-neutral-3.csv",
+    "rho_lt_abs": 0.7157384578411913,
+    "rho_lt_exact": 0.7159698795716918,
+    "rho_lt_old": 0.7159943568701101,
+    "standard_median_us": 9.1
+   },
+   {
+    "median_us": 9.0,
+    "n": 1646124,
+    "n_below_abs": 1174627,
+    "name": "set_01/test_02_unknown_vehicle_known_attack/force-neutral-4.csv",
+    "rho_lt_abs": 0.7135713955935276,
+    "rho_lt_exact": 0.7139644401029327,
+    "rho_lt_old": 0.7140033193125184,
+    "standard_median_us": 9.0
+   },
+   {
+    "median_us": 9.0,
+    "n": 635142,
+    "n_below_abs": 455230,
+    "name": "set_01/test_02_unknown_vehicle_known_attack/rpm-3.csv",
+    "rho_lt_abs": 0.7167373595196035,
+    "rho_lt_exact": 0.7170884621076862,
+    "rho_lt_old": 0.7171168022269035,
+    "standard_median_us": 9.0
+   },
+   {
+    "median_us": 9.0,
+    "n": 645558,
+    "n_below_abs": 458333,
+    "name": "set_01/test_02_unknown_vehicle_known_attack/rpm-4.csv",
+    "rho_lt_abs": 0.7099795835540726,
+    "rho_lt_exact": 0.7102181368676401,
+    "rho_lt_old": 0.7102398235325098,
+    "standard_median_us": 9.0
+   },
+   {
+    "median_us": 9.0,
+    "n": 634997,
+    "n_below_abs": 455746,
+    "name": "set_01/test_02_unknown_vehicle_known_attack/standstill-3.csv",
+    "rho_lt_abs": 0.7177136269935134,
+    "rho_lt_exact": 0.7179829196043446,
+    "rho_lt_old": 0.718022289869086,
+    "standard_median_us": 9.0
+   },
+   {
+    "median_us": 9.2,
+    "n": 645507,
+    "n_below_abs": 459602,
+    "name": "set_01/test_02_unknown_vehicle_known_attack/standstill-4.csv",
+    "rho_lt_abs": 0.7120015739565954,
+    "rho_lt_exact": 0.7123005637429184,
+    "rho_lt_old": 0.7123222521212008,
+    "standard_median_us": 9.2
+   },
+   {
+    "median_us": 12.0,
+    "n": 901183,
+    "n_below_abs": 558734,
+    "name": "set_01/test_03_known_vehicle_unknown_attack/double-3.csv",
+    "rho_lt_abs": 0.6200005992123686,
+    "rho_lt_exact": 0.6204222671754793,
+    "rho_lt_old": 0.6204932849376875,
+    "standard_median_us": 12.0
+   },
+   {
+    "median_us": 16.0,
+    "n": 839266,
+    "n_below_abs": 521258,
+    "name": "set_01/test_03_known_vehicle_unknown_attack/double-4.csv",
+    "rho_lt_abs": 0.6210879506616496,
+    "rho_lt_exact": 0.6219184382543794,
+    "rho_lt_old": 0.6219839717086121,
+    "standard_median_us": 16.0
+   },
+   {
+    "median_us": 14.0,
+    "n": 561911,
+    "n_below_abs": 352915,
+    "name": "set_01/test_03_known_vehicle_unknown_attack/fuzzing-3.csv",
+    "rho_lt_abs": 0.628062095242841,
+    "rho_lt_exact": 0.6290658129134329,
+    "rho_lt_old": 0.6291369985638295,
+    "standard_median_us": 14.0
+   },
+   {
+    "median_us": 16.0,
+    "n": 409069,
+    "n_below_abs": 255309,
+    "name": "set_01/test_03_known_vehicle_unknown_attack/fuzzing-4.csv",
+    "rho_lt_abs": 0.6241220918720314,
+    "rho_lt_exact": 0.6249679149483339,
+    "rho_lt_old": 0.6250265847570947,
+    "standard_median_us": 16.0
+   },
+   {
+    "median_us": 10.0,
+    "n": 778350,
+    "n_below_abs": 486946,
+    "name": "set_01/test_03_known_vehicle_unknown_attack/interval-3.csv",
+    "rho_lt_abs": 0.6256131560352026,
+    "rho_lt_exact": 0.6262555405665832,
+    "rho_lt_old": 0.6262966531765916,
+    "standard_median_us": 10.0
+   },
+   {
+    "median_us": 17.8,
+    "n": 884077,
+    "n_below_abs": 553328,
+    "name": "set_01/test_03_known_vehicle_unknown_attack/interval-4.csv",
+    "rho_lt_abs": 0.6258821347009367,
+    "rho_lt_exact": 0.6274464780782669,
+    "rho_lt_old": 0.6274905918828337,
+    "standard_median_us": 17.8
+   },
+   {
+    "median_us": 11.8,
+    "n": 624362,
+    "n_below_abs": 386440,
+    "name": "set_01/test_03_known_vehicle_unknown_attack/speed-3.csv",
+    "rho_lt_abs": 0.6189358096745158,
+    "rho_lt_exact": 0.6192689497438986,
+    "rho_lt_old": 0.619289770998235,
+    "standard_median_us": 11.8
+   },
+   {
+    "median_us": 12.0,
+    "n": 619790,
+    "n_below_abs": 382215,
+    "name": "set_01/test_03_known_vehicle_unknown_attack/speed-4.csv",
+    "rho_lt_abs": 0.616684683521838,
+    "rho_lt_exact": 0.6171009535487827,
+    "rho_lt_old": 0.6171267687442521,
+    "standard_median_us": 12.0
+   },
+   {
+    "median_us": 17.0,
+    "n": 781723,
+    "n_below_abs": 489848,
+    "name": "set_01/test_03_known_vehicle_unknown_attack/systematic-3.csv",
+    "rho_lt_abs": 0.6266260555209454,
+    "rho_lt_exact": 0.6277581700934985,
+    "rho_lt_old": 0.6278259690453012,
+    "standard_median_us": 17.0
+   },
+   {
+    "median_us": 16.900000000000002,
+    "n": 567724,
+    "n_below_abs": 355135,
+    "name": "set_01/test_03_known_vehicle_unknown_attack/systematic-4.csv",
+    "rho_lt_abs": 0.625541636428969,
+    "rho_lt_exact": 0.626193361563013,
+    "rho_lt_old": 0.626246204141449,
+    "standard_median_us": 16.900000000000002
+   },
+   {
+    "median_us": 11.8,
+    "n": 804287,
+    "n_below_abs": 498734,
+    "name": "set_01/test_03_known_vehicle_unknown_attack/triple-3.csv",
+    "rho_lt_abs": 0.6200945682324842,
+    "rho_lt_exact": 0.6204563793770135,
+    "rho_lt_old": 0.6205061128676703,
+    "standard_median_us": 11.8
+   },
+   {
+    "median_us": 11.8,
+    "n": 823507,
+    "n_below_abs": 510306,
+    "name": "set_01/test_03_known_vehicle_unknown_attack/triple-4.csv",
+    "rho_lt_abs": 0.6196741497036455,
+    "rho_lt_exact": 0.6201513769767591,
+    "rho_lt_old": 0.6202060213210088,
+    "standard_median_us": 11.8
+   },
+   {
+    "median_us": 10.0,
+    "n": 1104585,
+    "n_below_abs": 738067,
+    "name": "set_01/test_04_unknown_vehicle_unknown_attack/double-3.csv",
+    "rho_lt_abs": 0.6681848839156788,
+    "rho_lt_exact": 0.6685479161857169,
+    "rho_lt_old": 0.6685741703897844,
+    "standard_median_us": 10.0
+   },
+   {
+    "median_us": 10.0,
+    "n": 1299328,
+    "n_below_abs": 873039,
+    "name": "set_01/test_04_unknown_vehicle_unknown_attack/double-4.csv",
+    "rho_lt_abs": 0.671915790316225,
+    "rho_lt_exact": 0.6722305684169048,
+    "rho_lt_old": 0.6722551965323613,
+    "standard_median_us": 10.0
+   },
+   {
+    "median_us": 9.0,
+    "n": 484893,
+    "n_below_abs": 331793,
+    "name": "set_01/test_04_unknown_vehicle_unknown_attack/fuzzing-3.csv",
+    "rho_lt_abs": 0.68426023885682,
+    "rho_lt_exact": 0.6849841098964101,
+    "rho_lt_old": 0.6850336053521086,
+    "standard_median_us": 9.0
+   },
+   {
+    "median_us": 10.0,
+    "n": 618862,
+    "n_below_abs": 427137,
+    "name": "set_01/test_04_unknown_vehicle_unknown_attack/fuzzing-4.csv",
+    "rho_lt_abs": 0.6901974915247664,
+    "rho_lt_exact": 0.6910425910784633,
+    "rho_lt_old": 0.6910894512831617,
+    "standard_median_us": 10.0
+   },
+   {
+    "median_us": 11.0,
+    "n": 890838,
+    "n_below_abs": 600889,
+    "name": "set_01/test_04_unknown_vehicle_unknown_attack/interval-3.csv",
+    "rho_lt_abs": 0.6745210689261123,
+    "rho_lt_exact": 0.6748084387958304,
+    "rho_lt_old": 0.6748263994126878,
+    "standard_median_us": 11.0
+   },
+   {
+    "median_us": 10.200000000000001,
+    "n": 857605,
+    "n_below_abs": 576480,
+    "name": "set_01/test_04_unknown_vehicle_unknown_attack/interval-4.csv",
+    "rho_lt_abs": 0.6721975734749681,
+    "rho_lt_exact": 0.6723305018044438,
+    "rho_lt_old": 0.6723596527538902,
+    "standard_median_us": 10.200000000000001
+   },
+   {
+    "median_us": 10.0,
+    "n": 2619362,
+    "n_below_abs": 1762894,
+    "name": "set_01/test_04_unknown_vehicle_unknown_attack/speed-3.csv",
+    "rho_lt_abs": 0.6730241944412418,
+    "rho_lt_exact": 0.6733322847319309,
+    "rho_lt_old": 0.6733624447479959,
+    "standard_median_us": 10.0
+   },
+   {
+    "median_us": 10.0,
+    "n": 1898226,
+    "n_below_abs": 1273784,
+    "name": "set_01/test_04_unknown_vehicle_unknown_attack/speed-4.csv",
+    "rho_lt_abs": 0.6710391702568609,
+    "rho_lt_exact": 0.6714548215017601,
+    "rho_lt_old": 0.671558075803408,
+    "standard_median_us": 10.0
+   },
+   {
+    "median_us": 10.1,
+    "n": 507255,
+    "n_below_abs": 344652,
+    "name": "set_01/test_04_unknown_vehicle_unknown_attack/systematic-3.csv",
+    "rho_lt_abs": 0.6794452494307597,
+    "rho_lt_exact": 0.6803658909227115,
+    "rho_lt_old": 0.6803994046386925,
+    "standard_median_us": 10.1
+   },
+   {
+    "median_us": 9.2,
+    "n": 328769,
+    "n_below_abs": 223526,
+    "name": "set_01/test_04_unknown_vehicle_unknown_attack/systematic-4.csv",
+    "rho_lt_abs": 0.6798877023076993,
+    "rho_lt_exact": 0.6805538235052575,
+    "rho_lt_old": 0.6805903232969045,
+    "standard_median_us": 9.2
+   },
+   {
+    "median_us": 10.0,
+    "n": 1992623,
+    "n_below_abs": 1335825,
+    "name": "set_01/test_04_unknown_vehicle_unknown_attack/triple-3.csv",
+    "rho_lt_abs": 0.6703852158687318,
+    "rho_lt_exact": 0.6707585930705406,
+    "rho_lt_old": 0.6707912133905912,
+    "standard_median_us": 10.0
+   },
+   {
+    "median_us": 10.0,
+    "n": 592517,
+    "n_below_abs": 396976,
+    "name": "set_01/test_04_unknown_vehicle_unknown_attack/triple-4.csv",
+    "rho_lt_abs": 0.6699824646381454,
+    "rho_lt_exact": 0.6702676885220171,
+    "rho_lt_old": 0.6703048182583791,
+    "standard_median_us": 10.0
+   },
+   {
+    "median_us": 13.0,
+    "n": 76964,
+    "n_below_abs": 50275,
+    "name": "set_01/train_01/DoS-1.csv",
+    "rho_lt_abs": 0.6532274829790552,
+    "rho_lt_exact": 0.653916116625955,
+    "rho_lt_old": 0.6540330544150512,
+    "standard_median_us": 13.0
+   },
+   {
+    "median_us": 12.799999999999999,
+    "n": 274045,
+    "n_below_abs": 177554,
+    "name": "set_01/train_01/DoS-2.csv",
+    "rho_lt_abs": 0.647900892189239,
+    "rho_lt_exact": 0.6487036800525461,
+    "rho_lt_old": 0.648762064624423,
+    "standard_median_us": 12.799999999999999
+   },
+   {
+    "median_us": 253.00000000000003,
+    "n": 207703,
+    "n_below_abs": 52,
+    "name": "set_01/train_01/accessory-1.csv",
+    "rho_lt_abs": 0.0002503574815963178,
+    "rho_lt_exact": 0.002359137807349918,
+    "rho_lt_old": 0.01103980202500686,
+    "standard_median_us": 253.00000000000003
+   },
+   {
+    "median_us": 252.0,
+    "n": 226165,
+    "n_below_abs": 75,
+    "name": "set_01/train_01/accessory-2.csv",
+    "rho_lt_abs": 0.00033161629783565096,
+    "rho_lt_exact": 0.0024097450976057304,
+    "rho_lt_old": 0.010257997479716136,
+    "standard_median_us": 252.0
+   },
+   {
+    "median_us": 248.20000000000002,
+    "n": 1952832,
+    "n_below_abs": 1348,
+    "name": "set_01/train_01/attack-free-1.csv",
+    "rho_lt_abs": 0.0006902795529774194,
+    "rho_lt_exact": 0.0026208091633074426,
+    "rho_lt_old": 0.010531371874283093,
+    "standard_median_us": 248.20000000000002
+   },
+   {
+    "median_us": 248.79999999999998,
+    "n": 1265598,
+    "n_below_abs": 265,
+    "name": "set_01/train_01/attack-free-2.csv",
+    "rho_lt_abs": 0.00020938718297595286,
+    "rho_lt_exact": 0.0016640354994239877,
+    "rho_lt_old": 0.008940437642916629,
+    "standard_median_us": 248.79999999999998
+   },
+   {
+    "median_us": 11.0,
+    "n": 703187,
+    "n_below_abs": 437688,
+    "name": "set_01/train_01/force-neutral-1.csv",
+    "rho_lt_abs": 0.6224347150900116,
+    "rho_lt_exact": 0.6227902392962327,
+    "rho_lt_old": 0.6228201033295553,
+    "standard_median_us": 11.0
+   },
+   {
+    "median_us": 11.0,
+    "n": 997499,
+    "n_below_abs": 616199,
+    "name": "set_01/train_01/force-neutral-2.csv",
+    "rho_lt_abs": 0.6177439776881982,
+    "rho_lt_exact": 0.6180577624639223,
+    "rho_lt_old": 0.6180898426965842,
+    "standard_median_us": 11.0
+   },
+   {
+    "median_us": 11.8,
+    "n": 834767,
+    "n_below_abs": 515232,
+    "name": "set_01/train_01/rpm-1.csv",
+    "rho_lt_abs": 0.6172165406634426,
+    "rho_lt_exact": 0.6175411821502288,
+    "rho_lt_old": 0.6175627450534101,
+    "standard_median_us": 11.8
+   },
+   {
+    "median_us": 12.0,
+    "n": 821708,
+    "n_below_abs": 504737,
+    "name": "set_01/train_01/rpm-2.csv",
+    "rho_lt_abs": 0.6142534817721137,
+    "rho_lt_exact": 0.6145723298300613,
+    "rho_lt_old": 0.6145930184445083,
+    "standard_median_us": 12.0
+   },
+   {
+    "median_us": 11.2,
+    "n": 1950928,
+    "n_below_abs": 1203258,
+    "name": "set_01/train_01/standstill-1.csv",
+    "rho_lt_abs": 0.6167618692232619,
+    "rho_lt_exact": 0.617030459350627,
+    "rho_lt_old": 0.61704839953089,
+    "standard_median_us": 11.2
+   },
+   {
+    "median_us": 11.1,
+    "n": 1264249,
+    "n_below_abs": 780179,
+    "name": "set_01/train_01/standstill-2.csv",
+    "rho_lt_abs": 0.6171086550196995,
+    "rho_lt_exact": 0.6173989459354922,
+    "rho_lt_old": 0.6174234664215673,
+    "standard_median_us": 11.1
+   }
+  ],
+  "pooled": {
+   "median_us": 12.0,
+   "n": 44157313,
+   "n_below_abs": 26487731,
+   "name": "POOLED",
+   "rho_lt_abs": 0.5998492480735864,
+   "rho_lt_exact": 0.6004050789956354,
+   "rho_lt_old": 0.6010791009860587,
+   "standard_median_us": 12.0
+  }
+ },
+ "run_contract": {
+  "absolute_floor_us": 47.0,
+  "affected_file_threshold": 0.3,
+  "code_sha256": "eb4f9d88ab1b7eb05f3a68ca269696b8328db168d153125f5c7ff09e74285412",
+  "ctat_gap_filter": "adjacent normal frames; nonnegative gaps; >=100 gaps/file",
+  "inputs": [
+   {
+    "bytes": 137598512,
+    "group": "road",
+    "path": "/Users/dql/Datasets/can_ids/ROAD/road/ambient/ambient_dyno_drive_basic_long.log",
+    "sha256": "38b6cf1b806dbff515ce31f287d445ae6148db513d58c79509b2311d62bcffe7",
+    "time_unit": "candump integer microseconds"
+   },
+   {
+    "bytes": 48926704,
+    "group": "road",
+    "path": "/Users/dql/Datasets/can_ids/ROAD/road/ambient/ambient_dyno_drive_basic_short.log",
+    "sha256": "c9f65e0050dfbbce10105a48d7da6aae9facb1d3d499b8968262c29cff9612bb",
+    "time_unit": "candump integer microseconds"
+   },
+   {
+    "bytes": 35489874,
+    "group": "road",
+    "path": "/Users/dql/Datasets/can_ids/ROAD/road/ambient/ambient_dyno_drive_benign_anomaly.log",
+    "sha256": "2578f97340613b93b62a222769332019e78e4014278840c5e569f6b395b4d10d",
+    "time_unit": "candump integer microseconds"
+   },
+   {
+    "bytes": 65513568,
+    "group": "road",
+    "path": "/Users/dql/Datasets/can_ids/ROAD/road/ambient/ambient_dyno_drive_extended_long.log",
+    "sha256": "f06d22c9f67ce5bf42945441b9b0f48b677a4fc3004cb67147cffb1a58c72788",
+    "time_unit": "candump integer microseconds"
+   },
+   {
+    "bytes": 36360332,
+    "group": "road",
+    "path": "/Users/dql/Datasets/can_ids/ROAD/road/ambient/ambient_dyno_drive_extended_short.log",
+    "sha256": "ddc11a7ed5dcb85b7de063c609638b123eaf59b52939da55ea8a0cbfe6fe24b0",
+    "time_unit": "candump integer microseconds"
+   },
+   {
+    "bytes": 42911192,
+    "group": "road",
+    "path": "/Users/dql/Datasets/can_ids/ROAD/road/ambient/ambient_dyno_drive_radio_infotainment.log",
+    "sha256": "8e06679eaa54d627a9346ab400a6fc51bba9313ed3f50883aeb4ca9ad0365ff4",
+    "time_unit": "candump integer microseconds"
+   },
+   {
+    "bytes": 5250808,
+    "group": "road",
+    "path": "/Users/dql/Datasets/can_ids/ROAD/road/ambient/ambient_dyno_drive_winter.log",
+    "sha256": "29868df8bdab5380ed7b643ebc4bcfdd6c11cca3486830b7b326ff4745433894",
+    "time_unit": "candump integer microseconds"
+   },
+   {
+    "bytes": 203293412,
+    "group": "road",
+    "path": "/Users/dql/Datasets/can_ids/ROAD/road/ambient/ambient_dyno_exercise_all_bits.log",
+    "sha256": "710d0deff388686b05765573b36bccdbbc175fa693caafd6f18fadec0f226cd7",
+    "time_unit": "candump integer microseconds"
+   },
+   {
+    "bytes": 72326628,
+    "group": "road",
+    "path": "/Users/dql/Datasets/can_ids/ROAD/road/ambient/ambient_dyno_idle_radio_infotainment.log",
+    "sha256": "a410eb564cab15a3de84f97f4b8d84753c7fcaaed24da7eb05074ac7ef4d800c",
+    "time_unit": "candump integer microseconds"
+   },
+   {
+    "bytes": 5660162,
+    "group": "road",
+    "path": "/Users/dql/Datasets/can_ids/ROAD/road/ambient/ambient_dyno_reverse.log",
+    "sha256": "c21004cd476155bde8459d7a96b87a8eec996d7410d294f51ee66c3217a13001",
+    "time_unit": "candump integer microseconds"
+   },
+   {
+    "bytes": 51738546,
+    "group": "road",
+    "path": "/Users/dql/Datasets/can_ids/ROAD/road/ambient/ambient_highway_street_driving_diagnostics.log",
+    "sha256": "95ccdc033aadf9156dc055f09ede2ca849b7c69a889c61c74107016c4956fa54",
+    "time_unit": "candump integer microseconds"
+   },
+   {
+    "bytes": 405808136,
+    "group": "road",
+    "path": "/Users/dql/Datasets/can_ids/ROAD/road/ambient/ambient_highway_street_driving_long.log",
+    "sha256": "5d4d2715dfac8089fdea4e3bfd39609f1e863336657379a705c9ce790efcfc76",
+    "time_unit": "candump integer microseconds"
+   },
+   {
+    "bytes": 9418960,
+    "group": "road",
+    "path": "/Users/dql/Datasets/can_ids/ROAD/road/attacks/accelerator_attack_drive_1.log",
+    "sha256": "f25657c7b5b792299d5ff0718fd74192b43ce970daa1e6b12dba0286c27a63c4",
+    "time_unit": "candump integer microseconds"
+   },
+   {
+    "bytes": 7909056,
+    "group": "road",
+    "path": "/Users/dql/Datasets/can_ids/ROAD/road/attacks/accelerator_attack_drive_2.log",
+    "sha256": "b17381d3915b7fe2518866f7b7d293abe280d503ba2fa46e8517e8a365385985",
+    "time_unit": "candump integer microseconds"
+   },
+   {
+    "bytes": 9312562,
+    "group": "road",
+    "path": "/Users/dql/Datasets/can_ids/ROAD/road/attacks/accelerator_attack_reverse_1.log",
+    "sha256": "ad7fdd209587bfb5530d43ac12b9b7fcaa67322244755811aa9bb2be9387afe7",
+    "time_unit": "candump integer microseconds"
+   },
+   {
+    "bytes": 11472998,
+    "group": "road",
+    "path": "/Users/dql/Datasets/can_ids/ROAD/road/attacks/accelerator_attack_reverse_2.log",
+    "sha256": "584a5c102e3cb23a306978f76aef91ea3a7bd5fd5c8ba3493d211c43914b287b",
+    "time_unit": "candump integer microseconds"
+   },
+   {
+    "bytes": 3738052,
+    "group": "road",
+    "path": "/Users/dql/Datasets/can_ids/ROAD/road/attacks/correlated_signal_attack_1.log",
+    "sha256": "46f1c4ecd3392515f8e9b4d6ef8d7ebc5890f6695258dc45ece896ad99cd06f1",
+    "time_unit": "candump integer microseconds"
+   },
+   {
+    "bytes": 3642096,
+    "group": "road",
+    "path": "/Users/dql/Datasets/can_ids/ROAD/road/attacks/correlated_signal_attack_1_masquerade.log",
+    "sha256": "6b6a32c590f766fe338d29840679b5e6aac44c9b193430cdceda06d80e2d4c7e",
+    "time_unit": "candump integer microseconds"
+   },
+   {
+    "bytes": 3204222,
+    "group": "road",
+    "path": "/Users/dql/Datasets/can_ids/ROAD/road/attacks/correlated_signal_attack_2.log",
+    "sha256": "d0f659b172554110e9b67f9951ac478d67ce37481efd6a2dd9ef53b8e305e421",
+    "time_unit": "candump integer microseconds"
+   },
+   {
+    "bytes": 3105782,
+    "group": "road",
+    "path": "/Users/dql/Datasets/can_ids/ROAD/road/attacks/correlated_signal_attack_2_masquerade.log",
+    "sha256": "53cb0ba23ee6a36ae63b731d924a10402a5b28974f746af4aaa801322f3f70eb",
+    "time_unit": "candump integer microseconds"
+   },
+   {
+    "bytes": 1924134,
+    "group": "road",
+    "path": "/Users/dql/Datasets/can_ids/ROAD/road/attacks/correlated_signal_attack_3.log",
+    "sha256": "ef8c97a6a4bd6eaaf14dfc6ff5908c38c02676d3a384e9bcf5b857fe71866110",
+    "time_unit": "candump integer microseconds"
+   },
+   {
+    "bytes": 1865990,
+    "group": "road",
+    "path": "/Users/dql/Datasets/can_ids/ROAD/road/attacks/correlated_signal_attack_3_masquerade.log",
+    "sha256": "e7053700495a18a67882c7666a0344bb0d43e0743744d42e3f502c7a0962e490",
+    "time_unit": "candump integer microseconds"
+   },
+   {
+    "bytes": 2269732,
+    "group": "road",
+    "path": "/Users/dql/Datasets/can_ids/ROAD/road/attacks/fuzzing_attack_1.log",
+    "sha256": "04173a8403e8fc9996d3228889685b93f8327240fcbb84965e64ed853b3d39bc",
+    "time_unit": "candump integer microseconds"
+   },
+   {
+    "bytes": 1488146,
+    "group": "road",
+    "path": "/Users/dql/Datasets/can_ids/ROAD/road/attacks/fuzzing_attack_2.log",
+    "sha256": "99f9ca4c9ebb0fbdebb1bedd3c0ff51869c9efeb8aba6dd8e8006083b7bd9e4f",
+    "time_unit": "candump integer microseconds"
+   },
+   {
+    "bytes": 608948,
+    "group": "road",
+    "path": "/Users/dql/Datasets/can_ids/ROAD/road/attacks/fuzzing_attack_3.log",
+    "sha256": "53a67622b04e0ff0c63ca10b567a8ee31f17effbb96af8d369b8bbaadc0040aa",
+    "time_unit": "candump integer microseconds"
+   },
+   {
+    "bytes": 2848458,
+    "group": "road",
+    "path": "/Users/dql/Datasets/can_ids/ROAD/road/attacks/max_engine_coolant_temp_attack.log",
+    "sha256": "0f907546586b3f9401772df4d7642e995f30e764baa86f0aec46b72598e2b541",
+    "time_unit": "candump integer microseconds"
+   },
+   {
+    "bytes": 2846526,
+    "group": "road",
+    "path": "/Users/dql/Datasets/can_ids/ROAD/road/attacks/max_engine_coolant_temp_attack_masquerade.log",
+    "sha256": "6a6f3e419963b2118a9cc116021e62ad22c4138497aec0840b30f47320595c73",
+    "time_unit": "candump integer microseconds"
+   },
+   {
+    "bytes": 9816262,
+    "group": "road",
+    "path": "/Users/dql/Datasets/can_ids/ROAD/road/attacks/max_speedometer_attack_1.log",
+    "sha256": "6d36e0985dc7e962f600f328d2056d013f759df8a4daeb2db1505274fcecaca1",
+    "time_unit": "candump integer microseconds"
+   },
+   {
+    "bytes": 9703838,
+    "group": "road",
+    "path": "/Users/dql/Datasets/can_ids/ROAD/road/attacks/max_speedometer_attack_1_masquerade.log",
+    "sha256": "9905b3b4305c86f1562659e48327aa9ba471941078dcbf93aea4f001620e20a6",
+    "time_unit": "candump integer microseconds"
+   },
+   {
+    "bytes": 6711124,
+    "group": "road",
+    "path": "/Users/dql/Datasets/can_ids/ROAD/road/attacks/max_speedometer_attack_2.log",
+    "sha256": "20e8877307407de41b66c84d29205e99329590cbf47c1894ffe4713bd29d68dd",
+    "time_unit": "candump integer microseconds"
+   },
+   {
+    "bytes": 6566684,
+    "group": "road",
+    "path": "/Users/dql/Datasets/can_ids/ROAD/road/attacks/max_speedometer_attack_2_masquerade.log",
+    "sha256": "e0fdb8078d2aa9ce26cae34d2dbe216aab654cb77eddfb4917b41f0f574298e3",
+    "time_unit": "candump integer microseconds"
+   },
+   {
+    "bytes": 9823346,
+    "group": "road",
+    "path": "/Users/dql/Datasets/can_ids/ROAD/road/attacks/max_speedometer_attack_3.log",
+    "sha256": "dff0445e7941722227668865e10947e6c7a7bb15d1bf39b9425de4347288bd10",
+    "time_unit": "candump integer microseconds"
+   },
+   {
+    "bytes": 9542424,
+    "group": "road",
+    "path": "/Users/dql/Datasets/can_ids/ROAD/road/attacks/max_speedometer_attack_3_masquerade.log",
+    "sha256": "f8bea0945d47fcbcdea26dcab38845274a20ba17698eb417e68bb3ba57863388",
+    "time_unit": "candump integer microseconds"
+   },
+   {
+    "bytes": 3123492,
+    "group": "road",
+    "path": "/Users/dql/Datasets/can_ids/ROAD/road/attacks/reverse_light_off_attack_1.log",
+    "sha256": "0e253c574f6c8ba2a03c39f7fbbdb2c450bf2c4c072ac817f22c961d32996560",
+    "time_unit": "candump integer microseconds"
+   },
+   {
+    "bytes": 3092580,
+    "group": "road",
+    "path": "/Users/dql/Datasets/can_ids/ROAD/road/attacks/reverse_light_off_attack_1_masquerade.log",
+    "sha256": "4cd8616e2bfd0623b99a72e63876dc966d0c3a29252a2ac4cba736d0bfb0398b",
+    "time_unit": "candump integer microseconds"
+   },
+   {
+    "bytes": 4582888,
+    "group": "road",
+    "path": "/Users/dql/Datasets/can_ids/ROAD/road/attacks/reverse_light_off_attack_2.log",
+    "sha256": "e2247262c4ff7b2d3f9b509916c8c18487a4e5dc8ee0c282ba5c7da0d321ba48",
+    "time_unit": "candump integer microseconds"
+   },
+   {
+    "bytes": 4473822,
+    "group": "road",
+    "path": "/Users/dql/Datasets/can_ids/ROAD/road/attacks/reverse_light_off_attack_2_masquerade.log",
+    "sha256": "e576b6a7a608afebcd6438d92ea0e9f8314936d676a4e46e7700e4cbefd17771",
+    "time_unit": "candump integer microseconds"
+   },
+   {
+    "bytes": 6479330,
+    "group": "road",
+    "path": "/Users/dql/Datasets/can_ids/ROAD/road/attacks/reverse_light_off_attack_3.log",
+    "sha256": "b359e592f92775a9f10540b83f29a2e3de89e77b6828dee698fec3f9a8ee29ad",
+    "time_unit": "candump integer microseconds"
+   },
+   {
+    "bytes": 6367366,
+    "group": "road",
+    "path": "/Users/dql/Datasets/can_ids/ROAD/road/attacks/reverse_light_off_attack_3_masquerade.log",
+    "sha256": "19d02cc4c85c22aaab8e80ee700e0b139cc888c3232b2bd7c371c0877d6a9582",
+    "time_unit": "candump integer microseconds"
+   },
+   {
+    "bytes": 6128902,
+    "group": "road",
+    "path": "/Users/dql/Datasets/can_ids/ROAD/road/attacks/reverse_light_on_attack_1.log",
+    "sha256": "c5c34833e27241ced63b0b6e074d80651897a505f8f4fd6d005f859432384c82",
+    "time_unit": "candump integer microseconds"
+   },
+   {
+    "bytes": 6037316,
+    "group": "road",
+    "path": "/Users/dql/Datasets/can_ids/ROAD/road/attacks/reverse_light_on_attack_1_masquerade.log",
+    "sha256": "9a1d6907104e4a94495552818b8d8aaf0852c8ffc58c12b2f602ee5ee1bffd1e",
+    "time_unit": "candump integer microseconds"
+   },
+   {
+    "bytes": 8093470,
+    "group": "road",
+    "path": "/Users/dql/Datasets/can_ids/ROAD/road/attacks/reverse_light_on_attack_2.log",
+    "sha256": "1f8bb86b754127e61149cecee33ce924a66f1d7e3f7b06890715c240c6843fd3",
+    "time_unit": "candump integer microseconds"
+   },
+   {
+    "bytes": 7923776,
+    "group": "road",
+    "path": "/Users/dql/Datasets/can_ids/ROAD/road/attacks/reverse_light_on_attack_2_masquerade.log",
+    "sha256": "c15e11e83895deeaecf904ca0757efb0acd84053f58637d6d7029c6f58344da1",
+    "time_unit": "candump integer microseconds"
+   },
+   {
+    "bytes": 7178392,
+    "group": "road",
+    "path": "/Users/dql/Datasets/can_ids/ROAD/road/attacks/reverse_light_on_attack_3.log",
+    "sha256": "8ad277b7b19e66a4744f8309c02e4c7a9c149ce4c3b141f557780baefe9dcb8e",
+    "time_unit": "candump integer microseconds"
+   },
+   {
+    "bytes": 7070246,
+    "group": "road",
+    "path": "/Users/dql/Datasets/can_ids/ROAD/road/attacks/reverse_light_on_attack_3_masquerade.log",
+    "sha256": "4fbbce65cbe81c5fd762dd0440486a5dc0bb53cff3f29b408ab798236ba9c6e1",
+    "time_unit": "candump integer microseconds"
+   },
+   {
+    "bytes": 5992583,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_01_known_vehicle_known_attack/DoS-3.csv",
+    "sha256": "f86c0df69c26de9a955e13711057f40d18e374c980ab10827102b86961262183",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 35705429,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_01_known_vehicle_known_attack/DoS-4.csv",
+    "sha256": "c26eb8dea1e57b0a0d6640dadf583dcddfb47b11a99c753b3fdc8b997eb0db81",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 35169260,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_01_known_vehicle_known_attack/force-neutral-3.csv",
+    "sha256": "b237c080dbf74d1f74c9508109b73e5a56bd5b056134e55cc45860f369b2c001",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 32576569,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_01_known_vehicle_known_attack/force-neutral-4.csv",
+    "sha256": "5f6bacd0c1e901862102f750b66a918c0b6847ef9d7558fe374e8f6c49103329",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 31339311,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_01_known_vehicle_known_attack/rpm-3.csv",
+    "sha256": "21ca5c3341b51c027ce38e0ce9463664cf653be0fccd18ae28185703d74ce82b",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 31981845,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_01_known_vehicle_known_attack/rpm-4.csv",
+    "sha256": "aef3d15f39c6fb1dc2df87cc96205ce9c03c0c3b3cf246d56520f0f6e907462e",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 24292224,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_01_known_vehicle_known_attack/standstill-3.csv",
+    "sha256": "0d4e08589fc3b2e516a8a24e053dad1ec3b870c0248fe2a104a8cb29b405fe74",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 23977213,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_01_known_vehicle_known_attack/standstill-4.csv",
+    "sha256": "ed30a557065db8547deedd566b2c4889e6f0d5fe783b0244939d949d2b73caab",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 42431037,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_02_unknown_vehicle_known_attack/DoS-3.csv",
+    "sha256": "543c7f0f3218657a09fe7bc9fb7c95591725ec3832998323b68d2a9c8e754204",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 26343887,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_02_unknown_vehicle_known_attack/DoS-4.csv",
+    "sha256": "2f059858b0b25520befd23f00d5558ae2714eba72b540357465608ff6ebbde8c",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 17064422,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_02_unknown_vehicle_known_attack/force-neutral-3.csv",
+    "sha256": "be45ea3adc7dc010ff83218cf7ccd7f5a615999476f6b40e5946220dca198bc3",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 62637610,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_02_unknown_vehicle_known_attack/force-neutral-4.csv",
+    "sha256": "2b7b9c19741b51cfb413daeb864cfc50d17a45293066d967e6033ddd4799c94e",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 24085526,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_02_unknown_vehicle_known_attack/rpm-3.csv",
+    "sha256": "03113c53b5eb6a0876810f7b8937501f56e912d576a2d3259e90b4869c711f72",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 24583034,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_02_unknown_vehicle_known_attack/rpm-4.csv",
+    "sha256": "f3c5b8f07306598ef0e260fef9b64617fd2a3b02c2db69af0e1e43b67dee55fb",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 24165206,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_02_unknown_vehicle_known_attack/standstill-3.csv",
+    "sha256": "9956ebfa2702c31c8aebbb57e8b0f270be34535d667d3f2672b18c0197ac4bc9",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 24726257,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_02_unknown_vehicle_known_attack/standstill-4.csv",
+    "sha256": "5b5e8f61bc9af363b876253cb85584fc46f79676b68f662ddee214f706d24442",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 34817685,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_03_known_vehicle_unknown_attack/double-3.csv",
+    "sha256": "5424301d48e90a1625d756f7291f6320975d3d8723578b2eb278e58beb3ae970",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 32780010,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_03_known_vehicle_unknown_attack/double-4.csv",
+    "sha256": "387c28887c3ce8b96653f30903886cd4f197d494a3bf2834e26357fb651e5e64",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 22136964,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_03_known_vehicle_unknown_attack/fuzzing-3.csv",
+    "sha256": "526dbd06fa48816c11b40d1a568bac9aea8b7b582ea2e5405452e06fed1bd65b",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 15879440,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_03_known_vehicle_unknown_attack/fuzzing-4.csv",
+    "sha256": "8a6a60ba7d4dcae8c4ae057cbe946bf380e951b2ddbf8b6c6f1ca3c7b203dcbd",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 30698545,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_03_known_vehicle_unknown_attack/interval-3.csv",
+    "sha256": "0bded8086f4f35244f08da7593fcf7ab90c6e59262955f508924d5d3f197c0b0",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 34341759,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_03_known_vehicle_unknown_attack/interval-4.csv",
+    "sha256": "01137c00610f247fca7d0047e58b283d5a905cc44e2b399492a10a4a263248b8",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 24604895,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_03_known_vehicle_unknown_attack/speed-3.csv",
+    "sha256": "28109daa01df0396dd8fbcba208be3fe69294e3527e4028428468b693a83d4ae",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 24049791,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_03_known_vehicle_unknown_attack/speed-4.csv",
+    "sha256": "531376570b4842e77cfd4f5c033facf750e7a6172c3d088b756165b5408c13ed",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 30325595,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_03_known_vehicle_unknown_attack/systematic-3.csv",
+    "sha256": "f80791575a69da35407cc9a1941df725c8f634208b0d1e016444d45700466aa6",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 22146425,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_03_known_vehicle_unknown_attack/systematic-4.csv",
+    "sha256": "591bff23af57d632f7f1fb95ac18bdc75f9236d692d497c4187ca61ee9d2f987",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 31298504,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_03_known_vehicle_unknown_attack/triple-3.csv",
+    "sha256": "b579b502158707271fa33a4fd32adf47b1758454442b0361573dabc6e5cf9a26",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 32162261,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_03_known_vehicle_unknown_attack/triple-4.csv",
+    "sha256": "e4537cb5078f58019066334304cf1256f6f12ae48b1abb48aa32a0239c7b3855",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 41775703,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_04_unknown_vehicle_unknown_attack/double-3.csv",
+    "sha256": "3d24a7fc708ca920580c72ff667d37df9c5037caf331471d0562a34d131d04b5",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 49379769,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_04_unknown_vehicle_unknown_attack/double-4.csv",
+    "sha256": "9e6248652f95b208bdff2f42b38d86e016510120b2e1493d56ca126c81e7bbb0",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 18755856,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_04_unknown_vehicle_unknown_attack/fuzzing-3.csv",
+    "sha256": "5e3f3d75efff9a7fcb1acae56fa2dfca5b8049cf33b0c3978bfa30e9f868ec85",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 23502550,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_04_unknown_vehicle_unknown_attack/fuzzing-4.csv",
+    "sha256": "af823272547f3356ef5dbba838e8f472b6ac0dcc5a046a91094bdc2092c45b6a",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 33584019,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_04_unknown_vehicle_unknown_attack/interval-3.csv",
+    "sha256": "1d15c1d078fe7bc91438f4b1855e62c408a9325c605d6ff1b88f71f7415a67cb",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 32589943,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_04_unknown_vehicle_unknown_attack/interval-4.csv",
+    "sha256": "07d8e41c9554c95a421e3aad9d8b7b185edbfd568acb36505da0b5fb2b51f1e3",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 98986383,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_04_unknown_vehicle_unknown_attack/speed-3.csv",
+    "sha256": "0925bcd53d764a4aa57bccbaed5873c32a29b35a97ca3bc3418f53cb2afcbc87",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 71749378,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_04_unknown_vehicle_unknown_attack/speed-4.csv",
+    "sha256": "122cfd410b0d2b4b55059bb75c26368e8337df776599d9d2cc39f3b0632cb043",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 19340328,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_04_unknown_vehicle_unknown_attack/systematic-3.csv",
+    "sha256": "bb4af22be82a9cc583184f9192ac30126196218338711050272612c516acd7aa",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 12530600,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_04_unknown_vehicle_unknown_attack/systematic-4.csv",
+    "sha256": "0687f61bf1c5093f98ccfc52c6810dfa95d13c5d96e105bff5a5efbf91d61585",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 75208963,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_04_unknown_vehicle_unknown_attack/triple-3.csv",
+    "sha256": "690d047141c7918bd6ec623d788e424c04b3305482272e4eccacfb194a5ed9a4",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 22523639,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/test_04_unknown_vehicle_unknown_attack/triple-4.csv",
+    "sha256": "122c3d6aebe4babc9e56a5e2e75b564e51734814714814ffc0e5bd0147530c5a",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 3498722,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/train_01/DoS-1.csv",
+    "sha256": "70ba91332949ec1ce68faa5ff89e9647b9e271153108ccc5eff4c24d7e10117d",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 12122150,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/train_01/DoS-2.csv",
+    "sha256": "ed28da2b77dc3c556ebe54f73f6c4aec8dcf9a744b9b306ad858951f01f85809",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 8085578,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/train_01/accessory-1.csv",
+    "sha256": "01fd35561a0756782d05b8aa99af1eb555ad3dfa51137a90e05901adf826007e",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 8768770,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/train_01/accessory-2.csv",
+    "sha256": "6cab63f1d04a06cade61b21b356f26524095fc7bc10de39a86ba9fee2ca5b5cb",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 75976161,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/train_01/attack-free-1.csv",
+    "sha256": "ac377ea04cfcc0c742761ff9e6fad2ba80ab9bbeefffc0ff8fdabd0be9c2f05c",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 49385649,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/train_01/attack-free-2.csv",
+    "sha256": "a78ed1e6e3c2ddd6711584a7806acbdf146ae4c04cc15a2caf4fae83c755671a",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 27754807,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/train_01/force-neutral-1.csv",
+    "sha256": "90f42168f45241ea6979849b421405a28bab9556701a9ca1133bc6e6ea464c89",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 38541656,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/train_01/force-neutral-2.csv",
+    "sha256": "a84b2a1d2ca680a29cd8c212c6bd983f4a82d58d1cde2ff4c0cf1c182db37717",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 32695456,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/train_01/rpm-1.csv",
+    "sha256": "44e6b912666f4e089b885f910d2f9211c6faf99c74dc87d4f79cac33a86a3b31",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 31718456,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/train_01/rpm-2.csv",
+    "sha256": "6627e889f6bc0a7d60e20a632ab7f645a758d4a3af69e0525b540b71303c6a56",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 75978651,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/train_01/standstill-1.csv",
+    "sha256": "11a514b6d9a1007acef158dcd21fc48f168e2f1024221b3f28bcf13baca7867f",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 48937495,
+    "group": "ctat",
+    "path": "/Users/dql/Datasets/can_ids/can-train-and-test/set_01/train_01/standstill-2.csv",
+    "sha256": "29629eba417975566943220ecc87fb562e05c730094d0f3dd1f38c2fa105b5a7",
+    "time_unit": "decimal seconds"
+   },
+   {
+    "bytes": 693504,
+    "group": "crysys",
+    "path": "/Users/dql/Datasets/can_ids/CrySyS/logs/S-1-1-benign.log",
+    "sha256": "748b1edd5144d88b11048c6963f6de440a8f881eba975273f34a13d4daa00c6d",
+    "time_unit": "timestamp seconds"
+   },
+   {
+    "bytes": 691669,
+    "group": "crysys",
+    "path": "/Users/dql/Datasets/can_ids/CrySyS/logs/S-1-2-benign.log",
+    "sha256": "8e90f015fea360cf62d5bc061e6d0a1cafe3612ea1f385cb4f3a1f167a1c06b8",
+    "time_unit": "timestamp seconds"
+   },
+   {
+    "bytes": 695338,
+    "group": "crysys",
+    "path": "/Users/dql/Datasets/can_ids/CrySyS/logs/S-1-3-benign.log",
+    "sha256": "bdd17869ee92fe4cb2bbae2942ab68beb826c565d11928cf5a8e74fe25cfa6c5",
+    "time_unit": "timestamp seconds"
+   },
+   {
+    "bytes": 692582,
+    "group": "crysys",
+    "path": "/Users/dql/Datasets/can_ids/CrySyS/logs/S-1-4-benign.log",
+    "sha256": "d4f8907a4feaa56d9afc84137a63408d3034bba3135b525fdbac6a473bae59a9",
+    "time_unit": "timestamp seconds"
+   },
+   {
+    "bytes": 752384,
+    "group": "crysys",
+    "path": "/Users/dql/Datasets/can_ids/CrySyS/logs/S-1-5-benign.log",
+    "sha256": "b25f2a305dd1a3090fbf0858400279f706e1f72afb09026fae9d919e87e38fae",
+    "time_unit": "timestamp seconds"
+   },
+   {
+    "bytes": 672796,
+    "group": "crysys",
+    "path": "/Users/dql/Datasets/can_ids/CrySyS/logs/S-1-6-benign.log",
+    "sha256": "f22c84137f33d7f99715e982a71767461e2a6965e81f1f074abba868830aba6d",
+    "time_unit": "timestamp seconds"
+   },
+   {
+    "bytes": 692498,
+    "group": "crysys",
+    "path": "/Users/dql/Datasets/can_ids/CrySyS/logs/S-2-1-benign.log",
+    "sha256": "e2025d023603000d48d58085930383da7ab407fc6b81b1740c22680e8abece03",
+    "time_unit": "timestamp seconds"
+   },
+   {
+    "bytes": 692022,
+    "group": "crysys",
+    "path": "/Users/dql/Datasets/can_ids/CrySyS/logs/S-2-2-benign.log",
+    "sha256": "776a10ec0138d1d6de8a3597957f5cc2365c89a3d5120fd8ebec146c9a2fdb16",
+    "time_unit": "timestamp seconds"
+   },
+   {
+    "bytes": 713394,
+    "group": "crysys",
+    "path": "/Users/dql/Datasets/can_ids/CrySyS/logs/S-2-3-benign.log",
+    "sha256": "458e0f0e61bf3c69c59df06873a0bb16528e952c788109aef8811ee2ecc13b70",
+    "time_unit": "timestamp seconds"
+   },
+   {
+    "bytes": 696047,
+    "group": "crysys",
+    "path": "/Users/dql/Datasets/can_ids/CrySyS/logs/S-2-4-benign.log",
+    "sha256": "4cf8520681eb9b544fa606f3e9c9ab9780a77179f4fab2464acbb141712e8d2f",
+    "time_unit": "timestamp seconds"
+   },
+   {
+    "bytes": 738042,
+    "group": "crysys",
+    "path": "/Users/dql/Datasets/can_ids/CrySyS/logs/S-2-5-benign.log",
+    "sha256": "30bab2ed0a0c6869ff114877c1ba25a6ebee12237269a23559cd647530b0e974",
+    "time_unit": "timestamp seconds"
+   },
+   {
+    "bytes": 717603,
+    "group": "crysys",
+    "path": "/Users/dql/Datasets/can_ids/CrySyS/logs/S-2-6-benign.log",
+    "sha256": "f1eee7bd9d606e9976fb2351cb4b109873fdf8729343acdfdbacaf8857de34a6",
+    "time_unit": "timestamp seconds"
+   },
+   {
+    "bytes": 683118,
+    "group": "crysys",
+    "path": "/Users/dql/Datasets/can_ids/CrySyS/logs/S-3-1-benign.log",
+    "sha256": "8ebbbe53d12d97ff389a5a1fa84c98df4c52c7366e68875aea27d73b9aaffc7b",
+    "time_unit": "timestamp seconds"
+   },
+   {
+    "bytes": 747789,
+    "group": "crysys",
+    "path": "/Users/dql/Datasets/can_ids/CrySyS/logs/S-3-2-benign.log",
+    "sha256": "f7f2b489c708e7d0eabf2396ea604a3c94e1916be96e4f074306d7fb5adead3b",
+    "time_unit": "timestamp seconds"
+   },
+   {
+    "bytes": 709098,
+    "group": "crysys",
+    "path": "/Users/dql/Datasets/can_ids/CrySyS/logs/S-3-3-benign.log",
+    "sha256": "e74a947dd25b320937366661ff749176fd156f84789f11f2e852510cefec916f",
+    "time_unit": "timestamp seconds"
+   },
+   {
+    "bytes": 10211440,
+    "group": "crysys",
+    "path": "/Users/dql/Datasets/can_ids/CrySyS/logs/T-1-1-benign.log",
+    "sha256": "3e404bbd71ccf91f496b257dbaca61b138bb4492e4cd0774c22b8283850feb6f",
+    "time_unit": "timestamp seconds"
+   },
+   {
+    "bytes": 30015407,
+    "group": "crysys",
+    "path": "/Users/dql/Datasets/can_ids/CrySyS/logs/T-1-2-benign.log",
+    "sha256": "7221c1f4c2659538fca2dde8ee72a0663837809ee5a8806f11f9ab18f6907dfe",
+    "time_unit": "timestamp seconds"
+   },
+   {
+    "bytes": 26433345,
+    "group": "crysys",
+    "path": "/Users/dql/Datasets/can_ids/CrySyS/logs/T-1-3-benign.log",
+    "sha256": "06da3ea4e066f072e071f3191a471c5e1b86a3ab7da975e543194bc903c078f2",
+    "time_unit": "timestamp seconds"
+   },
+   {
+    "bytes": 37884136,
+    "group": "crysys",
+    "path": "/Users/dql/Datasets/can_ids/CrySyS/logs/T-1-4-benign.log",
+    "sha256": "dea93ddfff6aae925d95c0da40d24946b13ba70b14f4d8d11fd0c0d1b82b8b60",
+    "time_unit": "timestamp seconds"
+   },
+   {
+    "bytes": 25158981,
+    "group": "crysys",
+    "path": "/Users/dql/Datasets/can_ids/CrySyS/logs/T-1-5-benign.log",
+    "sha256": "ee51ba5611435a17317cf9a40dc766f6e52d80498c2b8ffcd79336145b561ecc",
+    "time_unit": "timestamp seconds"
+   },
+   {
+    "bytes": 29431131,
+    "group": "crysys",
+    "path": "/Users/dql/Datasets/can_ids/CrySyS/logs/T-1-6-benign.log",
+    "sha256": "23e53bc757f8ea0a797580fb37234c05a6bed33aafe746b35f50ac5cfbcb48b7",
+    "time_unit": "timestamp seconds"
+   },
+   {
+    "bytes": 6189158,
+    "group": "crysys",
+    "path": "/Users/dql/Datasets/can_ids/CrySyS/logs/T-1-7-benign.log",
+    "sha256": "72ed9ea2cb70fcfc26667b78e215701d55d4ea410c674e613a78e3e6dc6ce71b",
+    "time_unit": "timestamp seconds"
+   },
+   {
+    "bytes": 8519353,
+    "group": "crysys",
+    "path": "/Users/dql/Datasets/can_ids/CrySyS/logs/T-2-1-benign.log",
+    "sha256": "2508ce5bba36412be3cebdcd93133e552265bdc761f1a9474a5cd97c90d8c3a7",
+    "time_unit": "timestamp seconds"
+   },
+   {
+    "bytes": 8810590,
+    "group": "crysys",
+    "path": "/Users/dql/Datasets/can_ids/CrySyS/logs/T-2-2-benign.log",
+    "sha256": "5a859dab4a2eb6907d165db80e4cd6dd1ba9b86afca0012c2382164c707e8cf2",
+    "time_unit": "timestamp seconds"
+   },
+   {
+    "bytes": 13090495,
+    "group": "crysys",
+    "path": "/Users/dql/Datasets/can_ids/CrySyS/logs/T-3-1-benign.log",
+    "sha256": "95cd1252df13723753c32cfc36d0522ed6f5ec2a3949aac73294068f424c3833",
+    "time_unit": "timestamp seconds"
+   },
+   {
+    "bytes": 13333521,
+    "group": "crysys",
+    "path": "/Users/dql/Datasets/can_ids/CrySyS/logs/T-3-2-benign.log",
+    "sha256": "ec2c8a271ba26eb6641b5b64d6e379ce11b7801c0f7ddf0070752834f81db9db",
+    "time_unit": "timestamp seconds"
+   }
+  ]
+ }
+}

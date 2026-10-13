@@ -23,11 +23,16 @@ import numpy as np
 import pandas as pd
 
 if __package__:
-    from .result_provenance import LEGACY_MANIFEST, verify_result_source
+    from .result_provenance import verify_result_source
 else:
-    from result_provenance import LEGACY_MANIFEST, verify_result_source
+    from result_provenance import verify_result_source
 
 CSV = Path(__file__).resolve().parents[1] / "results/jitter_sensitivity.csv"
+# Delivered contract-bound provenance: results/jitter_sensitivity_manifest.json
+# binds the CSV to input_contract.json (repo root); the legacy manifest
+# (phase5/legacy_result_2026-08-11.json) predates the 2026-10-04 contract rerun
+# and is not part of this deposit.
+MANIFEST = Path(__file__).resolve().parents[1] / "results/jitter_sensitivity_manifest.json"
 STRONG_THRESHOLD = 0.3
 
 
@@ -42,7 +47,7 @@ def sha256(path: Path) -> str:
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--csv', type=Path, default=CSV)
-    parser.add_argument('--manifest', type=Path, default=LEGACY_MANIFEST)
+    parser.add_argument('--manifest', type=Path, default=MANIFEST)
     args = parser.parse_args()
     provenance = verify_result_source(args.csv, args.manifest)
     print(f"source: {provenance['evidence_kind']}; input_contract="

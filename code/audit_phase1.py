@@ -38,6 +38,13 @@ ROAD_RE = re.compile(rb"^\((\d+\.\d+)\)\s+can\d\s+[0-9A-Fa-f]{3,8}#")
 # 量化容差: epoch ~1e9 时 float64 ULP ≈ 1.19e-7, 1e-9 容差会全漏报
 GRID_TOL = 1e-6
 
+# CAN 帧间隔物理下限通用界 (2026-08-12 更正): 最短合法帧 44 bit + 帧间隔 3 bit
+# ÷ 最高标准位速率 1 Mbit/s = 47 µs。135µs 是满位填充上界且假设了无文档的
+# 波特率, 不得当下限; 三语料均无波特率文档, 审计零输入假设。
+# 见 .omc/decisions/2026-08-12_rate-independent-floor.md
+ABS_FLOOR_US = 47.0
+ABS_FLOOR = ABS_FLOOR_US * 1e-6  # 换算成秒 (本脚本时间戳口径)
+
 
 def stat_timestamps(ts):
     """核心统计: ts 为 np.float64 数组(已排序输入顺序, 不假设已排序)。"""
@@ -86,23 +93,24 @@ def stat_timestamps(ts):
 
 
 def judge(st):
-    """自动判读: CLEAN / UNPHYSICAL / POST-PROCESSED / REORDERED。
+    """自动判读: CLEAN / UNPHYSICAL / REORDERED。
 
     ⛔ 2026-08-11 REVIEW 修订两处 (原判读逻辑是 abs bug 时代调的, 修 bug 后已失配):
       1. 原 docstring 写的 "实测 ROAD 距整秒<1µs 占 49% / 随机基线 24 万倍, 后处理铁证"
          是 abs() bug 伪影, 已撤销 —— 修正后实测 sec_grid ≤ 8.1e-5, 网格整类证据弃用。
-      2. UNPHYSICAL 阈值原为 10µs, 与本项目自述的 CAN 500kbps 物理下限 ~135µs 不一致
-         (偏保守 13 倍), 导致 CTAT 44/52 文件被判 CLEAN 而与 summary 结论字面冲突。
-         现改为 135µs 口径。网格判据下沉为最后兜底 (修正后基本不触发)。
+      2. UNPHYSICAL 阈值原为 10µs, 偏保守, 导致 CTAT 44/52 文件被判 CLEAN 而与
+         summary 结论字面冲突。现改为 47µs 通用界口径 (ABS_FLOOR: 44 bit + 3 IFS
+         ÷ 1 Mbit/s, 2026-08-12 由 135µs 再更正, 见 .omc/decisions/
+         2026-08-12_rate-independent-floor.md)。
+    ⛔ 网格判据整类弃用, 不作判决 (2026-08-11 REVIEW: 三次浮点/十进制打印伪影,
+      原 POST-PROCESSED 兜底分支已删除; 修正后实测 sec_grid ≤ 8.1e-5 本不可触发)。
     """
     if st is None:
         return "EMPTY"
-    if st["dt"] and st["dt"]["median"] < 135e-6 and st["n_rows"] > 10000:
-        return "UNPHYSICAL (median inter-arrival < 135us CAN floor)"
+    if st["dt"] and st["dt"]["median"] < ABS_FLOOR and st["n_rows"] > 10000:
+        return "UNPHYSICAL (median inter-arrival < 47us CAN floor)"
     if st["reorder_pairs"] > st["n_rows"] * 0.001:
         return "REORDERED"
-    if st["on_sec_grid_frac"] > 0.01:
-        return "POST-PROCESSED (near-integer-second grid)"
     return "CLEAN"
 
 

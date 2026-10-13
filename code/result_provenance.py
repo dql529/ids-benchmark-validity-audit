@@ -41,7 +41,8 @@ def verify_result_source(csv: Path, manifest: Path) -> dict[str, object]:
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--csv', type=Path, default=ROOT / 'results/jitter_sensitivity.csv')
-    parser.add_argument('--manifest', type=Path, default=LEGACY_MANIFEST)
+    parser.add_argument('--manifest', type=Path,
+                        default=ROOT / 'results/jitter_sensitivity_manifest.json')
     args = parser.parse_args()
     result = verify_result_source(args.csv, args.manifest)
     print(f"RESULT SOURCE: {result['evidence_kind']}; CSV identity verified; "
