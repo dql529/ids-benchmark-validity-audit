@@ -78,7 +78,7 @@ The audit uses the nominal 47-microsecond threshold with a full intermission. Th
 paper states the 46-bit-time exception, format limitations, corpus-specific eligible
 gap populations, and the distinction between a timing screen and source identification.
 For the pseudocode below, $\mathcal G_c$ selects consecutive parseable ROAD rows or
-adjacent normal CTAT rows; attack rows break the latter sequence, negative gaps are
+adjacent normal CTAT rows; attack rows break the latter sequence; for can-train-and-test, negative gaps are
 excluded and zero gaps retained. Same-identifier intervals never cross source files.
 Integer microseconds and exact decimal seconds are compared in matching units.
 \section*{S1. Physical-floor construction}
