@@ -65,4 +65,4 @@ MIT (see LICENSE). Applies to the code, result tables, and registry in this depo
 ## Release
 
 v1.0.1 (2026-10-12) — initial release + MIT license, accompanying the manuscript.
-An archival DOI (Zenodo) will be attached to this release.
+Archived on Zenodo: doi:10.5281/zenodo.23321428.
