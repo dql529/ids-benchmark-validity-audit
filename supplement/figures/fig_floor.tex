@@ -1,0 +1,54 @@
+% Where the 47 bit-time floor of Equation (1) comes from.
+% No generator: every number here is a constant of ISO 11898's frame format, not a
+% measurement, and each one appears in the derivation paragraph of Section 2.1.
+% x is in bit times, so segment widths are the field widths by construction and cannot
+% drift from the arithmetic (1+11+3+4+16+2+7 = 44, +3 interframe space = 47).
+\begin{tikzpicture}[x=0.176cm, y=1cm, font=\scriptsize]
+
+% ---- the frame at l = 0, field by field -------------------------------------------
+\foreach \a/\b/\name in {0/1/, 1/12/identifier, 12/15/, 15/19/DLC, 19/35/{CRC $+$ del.},
+                         35/37/, 37/44/EOF} {
+  \draw[fill=black!7] (\a,0) rectangle (\b,0.52);
+  \node[font=\fontsize{6.6}{7.4}\selectfont] at ({(\a+\b)/2},0.26) {\name};
+}
+\draw[fill=black!20] (44,0) rectangle (47,0.52);
+\node[font=\fontsize{6.6}{7.4}\selectfont] at (45.5,0.26) {IFS};
+
+% Narrow fields cannot hold their own name; they get leaders to a lower line.
+\foreach \x/\lab in {0.5/{SOF, 1}, 13.5/{control, 3}, 36/{ACK, 2}} {
+  \draw[black!55, thin] (\x,0) -- (\x,-0.30);
+  \node[font=\fontsize{6.6}{7.4}\selectfont, anchor=north, inner sep=1pt] at (\x,-0.30) {\lab};
+}
+\foreach \x/\n in {6.5/11, 17/4, 27/16, 40.5/7, 45.5/3} {
+  \node[font=\fontsize{6.6}{7.4}\selectfont, anchor=north, inner sep=1.5pt] at (\x,0) {\n};
+}
+
+% ---- the two brackets that add up to the bound -------------------------------------
+\draw[decorate, decoration={brace, amplitude=3pt}] (0,0.60) -- (44,0.60)
+      node[midway, anchor=south, inner sep=5pt, font=\fontsize{6.6}{7.4}\selectfont]
+      {44 fixed-field bit times at $\ell=0$};
+\draw[decorate, decoration={brace, amplitude=3pt}] (44,0.60) -- (47,0.60)
+      node[midway, anchor=south, inner sep=5pt, font=\fontsize{6.6}{7.4}\selectfont] {$+3$};
+\node[anchor=north, font=\scriptsize] at (23.5,-0.80)
+      {$\dtmin(0)=47$ bit times $=\SI{47}{\micro\second}$ at \SI{1}{\mega\bit\per\second},
+       the highest standardised classic-CAN rate};
+
+% ---- why the stamping convention does not matter -----------------------------------
+% Drawn to the same bit-time scale as the panel above, just compressed, so the two spans
+% come out the same length on the page rather than being asserted equal in a label.
+\begin{scope}[yshift=-2.25cm, x=0.0908cm]
+  \draw[fill=black!7] (0,0) rectangle (44,0.34);
+  \node[font=\fontsize{6.6}{7.4}\selectfont] at (22,0.17) {frame $n$ ($\ell=0$, 44)};
+  \draw[fill=black!20] (44,0) rectangle (47,0.34);
+  \draw[fill=black!7] (47,0) rectangle (91,0.34);
+  \node[font=\fontsize{6.6}{7.4}\selectfont] at (69,0.17) {frame $n{+}1$ ($\ell=0$, 44)};
+  \node[font=\fontsize{6.6}{7.4}\selectfont, anchor=south, inner sep=1pt] at (45.5,0.34) {IFS};
+
+  \draw[<->, >=stealth, black!70] (0,0.78) -- (47,0.78)
+        node[midway, anchor=south, inner sep=1.5pt, font=\fontsize{6.6}{7.4}\selectfont]
+        {start-of-frame stamps: frame $n$ $+$ IFS $=47$};
+  \draw[<->, >=stealth, black!70] (44,-0.28) -- (91,-0.28)
+        node[midway, anchor=north, inner sep=3.2pt, font=\fontsize{6.6}{7.4}\selectfont]
+        {end-of-frame stamps: IFS $+$ frame $n{+}1$ $=47$};
+\end{scope}
+\end{tikzpicture}

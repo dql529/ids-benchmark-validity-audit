@@ -6,11 +6,13 @@ Gang Chen, Hai Deng; Nanjing University of Aeronautics and Astronautics).
 
 ## What this artifact is
 
-The complete zero-training, exact-arithmetic audit toolchain used in the paper, plus the
+The zero-training audit and analysis scripts used in the paper, plus the
 result tables it produced. The audit derives a protocol-level lower bound on the
 inter-frame gap of the Controller Area Network (47 µs general bound: shortest legal frame
-44 bit + intermission 3 bit at the maximum standard bit rate 1 Mbit/s) and tests every
-gap of four public corpora against it.
+44 bit + a full 3-bit intermission at 1 Mbit/s for standard-format classic CAN).
+The floor audit uses corpus-specific eligible gaps; SynCAN is a declared-synthetic
+control. ROAD uses integer microseconds, CTAT exact differences followed by floating-point
+summaries, and the CrySyS reference and downstream analyses also use floating point.
 
 Headline findings reproduced by this code:
 - ROAD: all 45 captures have median inter-frame gaps of exactly 1.000 or 2.000 µs;
@@ -28,8 +30,8 @@ Headline findings reproduced by this code:
 ```
 code/                      audit & analysis scripts (Python 3)
   audit_phase1.py          corpus-level audit (floor test, medians, per-file flags)
-  audit_phase2.py          per-identifier projection analysis
-  audit_phase3.py          taxonomy classification (L0/L1/L2/L3)
+  audit_phase2.py          segmented timing and attack/benign comparisons
+  audit_phase3.py          benign-only and exhaustive-oracle discriminability
   recompute_floor.py       independent recomputation of the 47 µs bound
   jitter_sensitivity.py    clock-perturbation arms A/B/C (produces results CSV)
   analyze.py               statistics over the perturbation sweep (Wilcoxon, Holm)
@@ -68,7 +70,10 @@ publishers (references in the paper's Section 2):
 
 ## Reproducing
 
-Each script is a standalone CLI run from `code/`; run with `--help` for arguments.
+Run executable analysis scripts from `code/`. The argparse entry points
+(`audit_phase1.py`, `recompute_floor.py`, `jitter_sensitivity.py`,
+`three_arm_analysis.py`, and `result_provenance.py`) support `--help`; other scripts
+use the defaults described in their source, and the contract modules are helpers.
 Result tables in `results/` were produced by the runs recorded in
 `VERIFIED_REGISTRY.md` (each row carries its provenance). To re-derive a paper
 number, locate its row in the registry and run the referenced script with the
@@ -94,7 +99,17 @@ those `*.npz` files under `code/cache/`.
 source: S1 physical-floor construction, S2 audit pseudocode, S3 damage taxonomy,
 S4 published statements and measurements, S5 current and historical sensitivity
 evidence. These sections moved out of the main text; the main paper references
-them by their S-numbers.
+them by their S-numbers. The two figure sources and the two cited bibliography
+entries are included. With a TeX installation providing IEEEtran, IEEEtranN,
+algorithm2e, dsfont, siunitx, TikZ/pgfplots and the standard packages:
+
+```sh
+cd supplement
+latexmk -pdf -interaction=nonstopmode -halt-on-error main_ieee_supplement.tex
+```
+
+The deposited PDF is the manuscript companion; rebuild metadata may differ while
+rendered content remains unchanged.
 
 ## License
 
@@ -111,3 +126,13 @@ S1-S5 included. Supersedes v1.0.1.
 
 v1.0.1 (2026-10-12) — initial release + MIT license, accompanying the manuscript.
 Archived on Zenodo: doi:10.5281/zenodo.23321428.
+
+## Provenance scope
+
+The registry retains historical hashes, including the superseded sensitivity CSV.
+They are not the identity of the current CSV. Original absolute input paths in
+`input_contract.json` and `results/floor_recompute_2026-10-02.json` are retained
+without rewriting the archived provenance. Historical project paths in registry rows
+refer to the original analysis layout; the delivered floor tables are under `results/`.
+The existing Zenodo version DOI is `10.5281/zenodo.23321428`; the version-family
+(concept) DOI is `10.5281/zenodo.23321427`.
